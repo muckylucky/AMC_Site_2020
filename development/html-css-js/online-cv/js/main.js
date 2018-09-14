@@ -1,0 +1,1 @@
+$(function(){  var word = "Andrew McCluckie";  word = word.split("");  var wordLength = word.length;  var i = 0;  var id;  var text = "";    function updateText() {	  if ( i < wordLength ) {	  	text += word[i];		$('#target').text(text);		i++;	  	setTimeout(updateText, 100);	  }  }    setTimeout(updateText(i), 300);  });
