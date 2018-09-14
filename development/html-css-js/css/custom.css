@@ -1,7 +1,12 @@
 /************************************** ANDY's STYLES ***************************************/
 body {
 	background:#E6E6E6;
+	background-image: url("../img/me_portrait.jpg");
 	padding:3rem;
+}
+
+.colour_primary {
+	color:#E53318;
 }
 .page-border {
 	position:fixed;
@@ -14,6 +19,7 @@ body {
 	border:200px solid #fff;
 	z-index:4000;
 	pointer-events:none;
+
 }
 
 .shadow {
@@ -29,6 +35,14 @@ body {
 	display:block;
 	width:90px;
 	opacity: 0.6
+}
+
+.page {
+	padding-top:4rem;
+}
+.page h1 {
+	text-align: center;
+	font-weight: 800;
 }
 
 
