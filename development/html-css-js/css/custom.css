@@ -67,6 +67,9 @@ body {
 	position:absolute;
 	left:0;
 	top:30%;
+	width:60rem;
+	padding:2rem;
+	background: #E53318;
 }
 	#nav-trigger {
 		position:relative;
@@ -79,3 +82,18 @@ body {
 		color:#fff;
 		z-index:5000;
 	}
+	.menu_l1 {
+		display: inline-block;
+		float: left;
+		width:14rem;
+		border:1px solid black;
+	}
+		.menu_l1 h2 {
+			font-size:1.6rem;
+		}
+		.menu_l2 li {
+			display: block;	
+		}
+			.menu_l2 li a {
+				padding:0;
+			}
