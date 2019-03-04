@@ -1,0 +1,25 @@
+CV COPY
+
+INTRO DEV
+I am an email front end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at Selligent. 
+Working with a Technical Project Manager we take requirements from client, formulate briefs/statements of work and develop journeys (Campaigns) and assets to fulfill those requirements. 
+I am highly proficient in all modern front-end web technologies but also understand your data and know how to use it to build highly segmented journeys that target customers using advanced 
+personalisation techniques. Every journey starts with a problem and I’m the person that gets the client to the solution. 
+
+
+I use the Campaign and SMC software to develop and test journeys/campaigns varying from single-shot emails to complex business life-cycle jounrneys.
+We provide advise on best-practice and user experience where possible.
+Building responsive emails using Sublime and testing in-browser is my day-to-day business using Litmus to do final cross-device testing.
+We advise clients and provide training on the platform and how to leverage their data for relevant segmentation and advanced personalisation.
+In addition to this I also provide first line support to clients via our internal ticketing system. This often requires running SQL queries on the back-end to ascrtain detailed
+info on client data and Campaign execution.
+I've developed a wide range of projects including:
+Competition from (client's front-end posting to Campaign back-end using AJAX + JSON and incorporating Google captcha).
+Dual branded email template where client used a .csv file to prepare content to a specific taxonomy for all fields and could upload this directly into an article list (saved the client days of work).
+Complex preference page with several back-end tables (included setting-up all the tables and relations to the main user list).
+Complex modular responsive templates that enabled the marketer to selsct from various layout modules at will when creating the content.
+Complex modular responsive template that automatically selcted the correct layout given a number of articles.
+Competition sign-up pages.
+Fonrt-line call center application for a major cinema chain. This single page application surfaced information about the clients loyalty account, film viewing history, call history and
+incorporated a voucher generation system.
+
