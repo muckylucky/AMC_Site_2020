@@ -97,3 +97,14 @@ body {
 			.menu_l2 li a {
 				padding:0;
 			}
+
+/*********************************** IMAGE SHUFFLER *****************************/
+
+#image_shuffler {
+	position: relative;
+	text-align: center;
+}
+img.shuffle {
+	border:1px solid black;
+	position:absolute;
+}
