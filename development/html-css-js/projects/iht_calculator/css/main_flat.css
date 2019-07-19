@@ -65,7 +65,7 @@ ol ul li {list-style-type:none}
 
 /*---------------------Forms-------------------*/
 label {color:#6D6E70;padding-left:8px}
-.error {padding:8px;margin-right:20px;background:url(../../images/general/error_stripes.gif) 0 0 repeat;border:1px solid #f8116a;border-radius:2px;color:#fff;display:none}
+.error {padding:8px;margin-right:20px;background:url(../img/error_stripes.gif) 0 0 repeat;border:1px solid #f8116a;border-radius:2px;color:#fff;display:none}
 span.warning {background:#f49500;margin-left:10px;border-radius:2px;color:#fff;font-weight:bold;}
 input:focus {outline:0;border:1px soild #a80037;}
 input::-moz-focus-inner {border: 0;}
