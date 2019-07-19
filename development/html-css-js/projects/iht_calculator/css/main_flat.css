@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* Base Document*/
+
+/*--------------------Base---------------------*/
+
+body {margin:0;padding:0;border:none;font:75%/1.5em Trebuchet MS, Arial,Helvetica,sans-serif;text-rendering:optimizelegibility;font-feature-settings:"kern" 1;}
+html, body {height:100%}
+a {text-decoration:underline;}
+A:FOCUS {outline:0}
+a img {border:none}
+p, ul ol {margin-bottom: 1.125em;}
+ul {margin:0;list-style-type:none}
+ul li {line-height:1.125em}
+h1, h2, h3, h4, h5 {font-family:'Pru Sans Normal', Trebuchet MS, arial, serif;font-weight:100;color:#333;line-height:1em}
+h1 {font-size:3.667em;letter-spacing:0px;line-height:54px;vertical-align:top;margin-bottom:1.125em;letter-spacing:-0.02em}
+h2 {font-size:36px;line-height:36px;margin-bottom:1.125em}
+h3 {text-transform:uppercase;margin-bottom:0px}
+h4 {font-weight:bold}
+hr {display: block;position: relative;padding: 8px 0 10px 0;margin: 0 auto 1.125em;width: 100%;clear: both;border: none;font-size: 1px;line-height: 1.125em;overflow: visible;background:url(../images/shadow_rule.jpg) 50% 0 no-repeat;}
+blockquote {margin:0 1em 1.125em 1em;}
+.print_only {display:none}
+.clear{clear:both}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+ol ul li {list-style-type:none}
+
+
+/*---------------------Structure-------------------*/
+
+.header {background:#fff;}
+		
+.header-inner {width:800px;margin:0 auto;padding:20px 0;position:relative}
+.navLinks {position:absolute;width:100%;height:2.5em;line-height:2.5em;text-align:center;padding-left:0;background:#D6DBDF;box-shadow:0 2px 0 rgba(0, 0, 0, 0.4);}	
+.navLinks li {display:inline}
+.navLinks li a {color:#323a45;padding:10px;text-decoration:none;line-height:32px\9}	
+.navLinks li a:hover {color:#f8116a}		
+.wrapper {margin:40px auto;padding-top:60px;width:800px;position:relative;z-index:1;}
+.wrapper > h1 {text-align:center;color:#fff;text-shadow:0 1px 1px #333}
+.inner-wrapper {overflow:auto;background:#fff url(../../images/general/IHT_Section_blue.gif) -2em 0 repeat-y;border-radius:2px;margin-top:1em;
+				-webkit-box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.4);
+				box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.4);
+				}
+.intro {background:#323a45;color:#fff;text-align:center;padding:1.125em;margin-bottom:1em}
+
+.asset-total {margin:20px;border-top:1px solid #666;margin-left:92px;width:680px}
+.highlight {font-weight:bold;color:#951b81;}
+.highlight-large {font-size:32px;font-weight:bold;color:#474849;text-transform:none;color:#f8116a;background:#efefef;padding:8px;margin:0;border-radius:2px;}
+
+.graph-container {background:#f2f2f2;border-radius:2px;border:1px solid #acacad;padding:20px 20px 10px 20px;margin:10px 0 20px 0}
+.big-pink-link {background:#f8116a url('../../images/general/big-pink-button.png') 0 0 no-repeat;padding:14px 82px;line-height:44px;color:#fff;text-decoration:none}
+.big-pink-link:hover {background:#f8116a url('../../images/general/big-pink-button.png') 0 -44px no-repeat;}
+.disclaimer {font-size:10px;background:#fff;padding:10px 20px;border-radius:2px;border:1px solid #acacad;margin-top:40px;box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2) inset}
+
+.mask-lower {width:100%;height:200px;background:#fff;position:fixed;bottom:0;z-index:0}
+
+.footer {padding:1em 0;position:relative;z-index:800;width:800px;margin:0 auto; background:rgba(40, 40, 40, 0.7);border-radius:3px}
+.footer p {width:760px;line-height:12px;margin:0 auto;text-align:justify;color:#fff;}
+
+#gradient {width:100%;height:100%;position:fixed;bottom:0;left:0}
+
+/*---------------------Table-------------------*/
+
+.investment-returns {width:450px;border-collapse:collapse;border:1px solid #999;margin:0 20px}
+.investment-returns th {text-align:left}
+
+/*---------------------Forms-------------------*/
+label {color:#6D6E70;padding-left:8px}
+.error {padding:8px;margin-right:20px;background:url(../../images/general/error_stripes.gif) 0 0 repeat;border:1px solid #f8116a;border-radius:2px;color:#fff;display:none}
+span.warning {background:#f49500;margin-left:10px;border-radius:2px;color:#fff;font-weight:bold;}
+input:focus {outline:0;border:1px soild #a80037;}
+input::-moz-focus-inner {border: 0;}
+input.warning {background:#f4a100 !important;color:#fff}
+input.error {background:#fff;color:#fff;padding:0 0 0 8px;border:1px solid red}
+.grey-form-section {position:relative;overflow:auto;overflow:none\9;margin-top:20px\9}
+.section-number {position:absolute;top:24px;top:0\9;left:20px;color:#2c677a;position:absolute;font-size:4em;height:40px;display:block;line-height:40px}
+.grey-form-section ul {margin-left:100px}
+.grey-form-section ul li {margin:10px 0;padding-left:22px}
+.button ul {margin-left:100px}
+.button ul li {margin:10px 0;padding-left:22px}
+li.label-pound {background:url("../../images/general/IHT-label-pound-copy.png") 0 18px no-repeat}
+h3.section-head {font-size:2em;padding-left:82px;color:#474849;padding-top:2em\9sys}
+#time-horizon, #input_age {width:40px}
+.calc_input {height:36px;border-radius:2px;border:1px solid #9fa7b4;background:url("../../images/general/input-gradient-bg.gif") 0 0 repeat-x;font-size:16px;color:#474849;padding-left:16px;margin-right:12px;line-height:36px}
+.calc_input:focus {border:1px solid #f8116a}
+
+.sidenote {width:220px;height:126px;position:absolute;right:40px;top:70px;top:40px\9;padding:20px;background:#fff;color:#fff;border-radius:2px;border:1px solid #676767}
+.sidenote h4 {color:#676767;text-transform:uppercase;margin:0;padding:0}
+.sidenote p, .sidenote a {font-size:12px;color:#676767}
+.button {margin:0 20px 20px 0;padding-bottom:20px}
+.big_button {border-radius: 3px 3px 3px 3px;box-shadow: 0 2px 0 0 rgba(183, 13, 78, 1);padding: 12px 14px;background:#f8116a;color:#fff;text-decoration:none;border-top:1px solid #fb70a6}
+.purple {background:#951b81}
+.big_button:hover {background:#951b81;box-shadow: 0 2px 0 0 #333;border-top:1px solid #bf76b3}
+#submit-form {border:0;color:#fff;width:211px;font-weight:bold;font-size:1.125em;margin-left:20px;height:45px;line-height:45px;-webkit-appearance:none;line-height:20px}
+#submit-form:hover, #submit-form:focus {cursor:pointer;text-shadow:0 -1px 0 #a80037;}
+.help {position:absolute}
+.help p {margin-left:60px}
+.help-symbol {height:50px;color:#f8116a;background:url("../../images/general/IHT-help.png") 10px 10px no-repeat;display:inline-block;font-weight:bold;padding:15px 10px 0 50px;word-wrap: break-word;}
+#growth-rates {display:block;position:relative;padding-bottom:20px}
+
+/*----------------------Popup---------------------*/
+.popup_content {position:absolute;z-index:9998;width:600px;padding:20px;background:#333;border:1px solid #000;color:#fff;border-radius: 2px;box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.8); }
+.popup_content ul {margin-right:40px;}
+.popup_content ul li {line-height:22px;list-style-type:disc}
+.popup_content h3 {color:#fff;font-size:3em;margin:0.5em 0 0.75em 0}
+.popup_content h4 {color:#fff}
+.popup_content p {color:#fff}
+.popup_surround {display:inline-block;padding:10px;background: rgba(0, 0, 0, 0.5);z-index:9800}
+#mask {position:absolute;z-index:8999;background-color:#333;display:none;}
+.top_close {position:absolute;padding:8px;margin-top:20px;top:220px;left:450px;color:#fff;background:#ffcb00 url("../../images/button_overlay.png") repeat-x scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25)
+	;z-index:9999}
+#modal_close {position:absolute;top:-16px;right:-16px;width:44px;height:48px;display:block;z-index:9999;background:url(../../images/modal_close.png) 0 0 no-repeat}
+.three_col {display:inline;position:relative}
+.hover_content {position:absolute;width:240px;padding:10px;text-align:center;background:#ddd;border:6px solid #333}
+
+.calc-results {display:none;width:756px;margin:28px 20px}

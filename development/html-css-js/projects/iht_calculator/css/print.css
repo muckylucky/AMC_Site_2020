@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Print */
+h1, h2, h3, h4, h5, p {text-shadow:none !important}
+a {text-decoration:none !important;font-size:14px !important;font-family: 'Candara', Helvetica, sans-serif !important}
+p {font-size:14px !important;font-family: 'Calibri', Helvetica, sans-serif !important}
+html * {border:0;box-shadow:none !important;color:#666;text-align:left !important}
+.wrapper {width:480pt;margin-top:0 !important;padding-top:0 !important}
+.inner_wrapper {border:1px solid blue}
+div * {box-shadow:none !important;border:none !important;max-width:480pt !important;padding:0}
+html body header {display:block !important}
+html body .wrapper > h1 {display:block !important}
+#section-1 label, #section-2 input {display:block !important}
+.section-number, .navLinks, .intro, .help, .sidenote, .button, .big_button {display:none !important}
+input {padding-left:0 !important;font-size:18pt !important}
+.section-head {padding-left:0 !important}
+.grey-form-section, .grey-form-section ul {margin-left:0;padding-left:0 !important;page-break-inside:avoid}
+.grey-form-section ul li {margin-left:0 !important;padding-left:0 !important}
+.print {display:block !important}
+h2.print_only {display:block !important}
+span.print_only {display:inline;font-size:18pt}
+.section-number {text-indent:0 !important;font-size:20pt}
+label {display:inline !important;margin-right:20pt}
+
+.popup_content {display:block !important;position:relative !important;border:0 !important;color:#000 !important}
+
+#holder div {margin-left:-20pt}
+
+#gradient {display:none}

@@ -1,0 +1,339 @@
+<!-- Localized -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "format-detection" content = "telephone=no">
+	<meta charset=UTF-8>
+	<meta name="description" content="Calculate your expected Inheritance Tax bill (IHT) in four easy steps">
+	<meta name="keywords" content="inheritance tax calculator, IHT, iht, inheritance tax, calculator, pruprotect, iht bill, iht liability, iht calculator">
+	<title>Inheritance Tax Calculator from PruProtect</title>
+	<link type="text/css" href="css/main_flat.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/print.css" media="print" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+		google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+  <!--  google analytics stuff -->
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-5211117-5']);    
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); 
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    <!-- google analytics stuff end -->
+    </head>
+
+<body style="background:#333333 url(../images/general/bg_3.jpg) 0 0 no-repeat fixed;background-size:cover">
+
+<div class="header">
+	<div class="header-inner">
+		<a href="../index.html"><img width="221" height="37" alt="PruProtect" src="../images/general/logo_pruprotect.gif" id="pp-logo-gw"></a> 
+    </div>
+</div>
+
+<ul class="navLinks">
+	<li style="background:url(../images/general/tool_icon.png) -10px -10px no-repeat;width:30px">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="#">Conditions covered</a></li>
+    <li><a href="#">BMI calculator</a></li>
+    <li><a href="#">Money manager</a></li>
+    <li><a href="#">Severity explained</a></li>
+    <li><a href="#">Minimum Protected Account</a></li>
+</ul>
+
+<div id="bg-image"></div>
+
+<div class="wrapper">
+	<h1 class="print">Inheritance Tax Calculator</h1>
+    <h2 class="print_only" style="text-align:center">Your Inheritance Tax Report</h2>
+    
+        <div class="intro">
+        	
+            <h2 style="color:#fff">Calculate your expected Inheritance Tax bill<br> in 4 easy steps</h2>
+            <p>We've created this tool to help you work out the size of the Inheritance Tax (IHT) bill you could leave behind when you die. It also shows how your IHT bill could increase as your wealth grows. This can help you future proof your IHT planning, giving you more certainty that your loved ones wont have to worry about it.<br>						
+            	<small><a href="terms.html" style="color:#fff" target="_blank">Terms and conditions apply</a></small>
+            </p>
+            
+
+            
+        </div><!--END INTRO-->
+        <form id="IHT-calc" name="IHT-calc" class="grey-form calc-input">
+        
+        	<div class="inner-wrapper input-page">
+                <div class="grey-form-section" id="form-1">
+                    <span class="section-number" id="section-1">1</span>
+                    <h3 class="section-head">What is your age?</h3>
+                    <ul>
+                        <li>
+                            <label for="input_age">Age</label>
+                            <div>
+                                <input name="input_age" id="input_age" class="calc_input" value="00" placeholder="" type="number" size="3" step="0" /><span>years</span>
+                                <p class="error" id="age_error">Please enter your age</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--END SECTION 1-->
+			</div>
+            
+			<div class="inner-wrapper input-page">
+                <div class="grey-form-section" id="form-2">
+                    <span class="section-number" id="section-2">2</span>
+                    <h3 class="section-head">What is the value of your assets?</h3>
+                    <ul>
+                        <li class="label-pound">
+                            <label for="input_property">Property</label>
+                            <div>
+                                <!--Span class is for the print output only-->
+                                <span class="print_only">£</span><input name="property" class="calc_input asset" value="0" />
+                            </div>
+                        </li>
+                        <li class="label-pound">
+                            <label for="input_investments">Investments</label>
+                            <div>
+                                <span class="print_only">£</span><input name="investments" class="calc_input asset" value="0" />
+                            </div>
+                        </li>
+                        <!--
+                        <li class="label-pound">
+                            <label for="input_pensions">Pensions</label>
+                            <div>
+                                <span class="print_only">£</span><input name="pensions" class="calc_input asset" value="0" />
+                            </div>
+                        </li>
+                        -->
+                        <li class="label-pound">
+                            <label for="input_other">Other</label>
+                            <div>
+                                <span class="print_only">£</span><input name="other" class="calc_input asset" value="0" />
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="sidenote">
+                        <h4>Investment returns</h4>
+                        <p>We've assumed that your wealth will grow according to the growth rates below. By changing them, you can see how your wealth and IHT could change in the future.
+                        <br>
+                        <a href="#" class="popup_trigger" style="color:#f8116a">Adjust growth rates</a>
+                        </p>
+                    </div><!--END SIDENOTE-->
+                    
+                    <p style="margin-left:94px;width:540px">We have not included the value of your pension into the calculation on the assumption that you have taken appropriate pensions advice so that the value would fall outside of your estate for IHT purposes on death. If this is not the case then you can factor a value into the calculation under the Other category.</p>
+                    <div class="asset-total print">
+                        <h3 style="font-size:32px;color:#666;margin-top:0.5em">Total: <span id="asset-total" class="highlight-large" style="padding-left:12px;background:none;margin-top:6px">£0</span></h3>
+                    </div>
+                </div><!--END SECTION 2-->
+			</div>
+            
+			<div class="inner-wrapper input-page">
+                <div class="grey-form-section" id="form-3">
+                    <span class="section-number" id="section-3">3</span>
+                    <h3 class="section-head">What is your nil-rate band FOR INHERITANCE TAX?</h3>
+                    <ul>
+                        <li class="label-pound">
+                            <label for="nil-rate">Nil-rate</label>
+                            <div>
+                                <span class="print_only">£</span><input name="nil-rate" id="nil-rate" class="calc_input" />
+                                <p class="error" id="nil_rate_error">The nil-rate amount must be greater than £325,000</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="help" style="left:400px;top:70px">
+                        <a href="#" id="nil-rate-info" class="popup_trigger help-symbol">Not sure what your nil-rate band is?</a> 
+                    </div>
+                    <br />
+                </div><!--END SECTION 3-->
+			</div>
+  
+			<div class="inner-wrapper input-page">
+                <div class="grey-form-section" id="form-4" style="height:160px">
+                    <span class="section-number" id="section-4">4</span>
+                    <h3 class="section-head">Do you plan to leave 10% or more of your estate to charity?</h3>
+                    <ul>
+                        <li>
+                                <input type="radio" checked="true" class="radio_twin" id="charity-yes" value="yes" name="charity" />
+                                <label for="charity-yes">Yes</label>
+                                <input type="radio" class="radio_twin" id="charity-no" value="no" name="charity" />
+                                <label for="charity-no">No</label>
+                                
+                        </li>
+                    </ul>
+                    <div class="help" style="left:300px;top:70px">
+                        <a href="#" id="charity-info" class="popup_trigger help-symbol">Find-out how leaving money to charity can <br />reduce the inheritance tax you pay.</a> 
+                        
+                    </div>
+                </div><!--END SECTION 4-->
+                
+                <div class="button" style="margin-top:-1em">
+                	<ul>
+                    	<li>
+                            <input type="checkbox" name="t_and_c" id="t_and_c">
+                            <label for="t_and_c">Please confirm you have read the terms and conditions before using this tool</label>
+                        </li>
+                        <li>
+                            <label for="time-horizon">Calculate my projected IHT bill in 
+                                <input type="number" tabindex="10" name="time-horizon" id="time-horizon" class="calc_input error" size="3" style="display: inline;"> years time
+                            </label>
+<input type="submit" tabindex="11" class="big_button" id="submit-form" name="submit-form" value="Calculate now">
+                            <p id="time_error" class="error" >Please enter a value</p>
+                        </li>
+                </div><!--END BUTTON-->
+			</div>
+        </form>
+
+		<div class="inner-wrapper input-page" style="background:#fff">
+            <div class="calc-results" id="calc-results">
+                <h3 class="section-head" style="padding-left:0">Your expected IHT now, and in the future:</h3>
+                <p>Based on your total wealth of <span class="highlight" id="result-total">£0</span> today, then in the event of your death your potential IHT bill could be: </p>
+                <p class="highlight-large" id="init-IHT">£0</p>
+                <p>However, by the time you're <span class="highlight" id="result-age">xx</span>, your wealth may have grown to <span class="highlight" id="result-wealth-total">£xxx,xxx</span>. This means your IHT bill could also have grown to: </p>
+                <p class="highlight-large" id="result-IHT-total">£0</p>
+                <p>So that's an increase in your wealth of <span class="highlight" id="result-wealth-increase">xxx%</span>, and an increase in your IHT bill of <span class="highlight" id="result-iht-bill">xxx%</span>.</p>
+                
+                
+                <div class="graph-container">
+    
+                    <div id="holder"></div>
+                    <br />
+                    <a href="#" class="big_button" onClick="javascript:window.print();return false">Print report</a>
+    				<br />
+                    <br />
+    				<a href="#" id="charity-info" class="popup_trigger help-symbol">Other assumptions we have made</a>
+    
+                    <h2 style="color:#f8116a;margin-top:0">PruProtect can help get you covered</h2>
+                    <p>Getting cover for your potential IHT bill means your loved ones will not have to worry about selling off any assets like the family home when you die. So it gives both you and your loved ones peace of mind when you're gone.</p>
+                    <p>But it is also important to think ahead so you can protect your estate against IHT both now and in the future as your wealth grows. To future proof your IHT plans there are a number of things you could do:</p>
+                    <ol>
+                        <li>Increase the Whole of Life Cover you buy from the start</li>
+                        <li>Regularly review your cover needs with your financial adviser</li>
+                        <li>Add indexation to your Whole of Life cover so your cover could be more likely to track your IHT bill in the future</li>
+                    </ol>
+                    <br />
+                    <a href="../adviser/index.html" class="big_button">Find out more about PruProtect's award winning cover</a>
+                    <div class="disclaimer">
+                        <p>The figures calculated here are only estimates of your current and future IHT bill based on the information provided and the assumptions stated. You should seek independent professional financial advice when calculating what cover you need.</p>
+                        <p>PruProtect only provides Life Cover to those aged between 18 and 75 at the time of taking out cover.</p>
+                        <p>We offer Life Cover on both a Whole of Life and Term basis. Term cover is only available up to 40 years.</p>
+    
+                    </div>
+                </div><!--end graph container-->
+                
+            </div><!--END RESULTS-->
+		</div>        
+    
+       
+</div><!--END WRAPPER-->
+
+    <div class="footer">
+    	<p>For use by UK Advisers only. Not suitable for use by consumers.</p>
+	    <p>&copy; <script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script>&nbsp;Prudential Health Limited trading as PruProtect. All rights reserved.</p>
+    	<p><small>PruProtect is a trading name of Prudential Health Services Limited. Prudential is a trading name of The Prudential Assurance Company Limited.  The Prudential Assurance Company Limited, registration number 00015454 is the insurer that underwrites the PruProtect plan. Prudential Health Services Limited, registration number 05933141 arranges and administers PruProtect plans underwritten by The Prudential Assurance Company Limited.</small></p>
+        <p><small>Registered offices at Laurence Pountney Hill, London EC4R 0HH. Registered in England and Wales.
+</small></p>
+		<p><small>Prudential Health Services Limited is authorised and regulated by the Financial Conduct Authority. The Prudential Assurance Company Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.</small></p>
+        <p><small>None of the companies are affiliated in any manner with Prudential Financial, Inc, a company whose principal place of business is in the United States of America.</small></p>
+        </div><!--END FOOTER-->
+
+<!-- POPUP CONTENTS-->
+
+<div class="investment-returns popup_content">
+	<h3>Investment returns</h3>
+    <form name="growth-rates" id="growth-rates">
+        <table border="0" cellspacing="0" cellpadding="6">
+                <tr>
+                    <th scope="col" style="width:30%">Asset class</th>
+                    <th scope="col" style="width:70%">Annual investment returns (net of expenses)</th>
+                </tr>
+                <tr>
+                    <td>Property</td>
+                    <td>
+                        <input name="growth_property" class="calc_input growth" size="3" /><label for="growth-property"> %</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Investments</td>
+                    <td>
+                        <input name="growth_investments" class="calc_input growth" size="3" /><label for="growth-investments"> %</label>
+                    </td>
+                </tr>
+                <!--
+                <tr>
+                    <td>Pensions</td>
+                    <td>
+                        <input name="growth_pensions" class="calc_input growth" type="number" size="3" /><label for="growth-pensions"> %</label>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <td>Other</td>
+                    <td>
+                        <input name="growth_other" class="calc_input growth" type="number" size="3" /> <label for="growth-other"> %</label>
+                    </td>
+                </tr>
+        </table>
+        <br />
+        <p><a href="#" class="big_button" id="growth_save" onClick="save_growths(this);return false">Save changes</a> <span style="display:none"> Changes saved </span><a href="#" id="inline_close" style="color:#fff;margin-left:2em">Close</a></p>    
+
+    </form>
+	<div style="padding:2em;border-radius:4px;background:#666;box-shadow: inset 0px 2px 0 0 rgba(0, 0, 0, 0.8);overflow:auto;margin-top:2em">
+        <p>The default investment returns are based on historical annualised returns over the 10 years to 31 March 2013. The growth rates are based on:</p>
+        <ul>
+            <li>Property: Nationwide UK property index</li>
+            <li>Investments: FTSE 100 index </li>
+            <!--<li>Pensions: Assume a mix of 70% Investments and 30% alternatives such as property </li>-->
+            <li>Other: Assume same mix as pensions</li>
+        </ul>
+    </div>
+
+
+</div><!--END INVESTMENT RETURNS POPUP-->
+
+<div class="popup_content">
+    <h3>Nil-rate band</h3>
+    <p>The nil-rate band is the amount below which your estate will not pay any inheritance tax, and is currently set at £325,000 for individuals (frozen until April 2018). Any large gifts that you have made over £3000 will stay ‘on the clock’ for seven years and effectively reduce your available nil rate band during this period.</p>
+    <p>Any estate will then be charged inheritance tax at a rate of 40% on all taxable assets above this amount. E.g. If your estate is worth £400,000, you will pay £40% tax on the £75,000 (=£400,000-£325,000) that is above your nil-rate band. So in this case, £30,000 (=£75,000 x 40%)will be paid in inheritance tax.</p>
+
+    <p>If you leave all of your wealth to your spouse or Registered Civil Partner (RCP), then providing they are UK domiciled there  will be no inheritance tax is payable. A lower spouse exemption applies to gifts to non UK domiciled spouses. Using the spouse exemption  means that some or all of your individual nil-rate allowance is un-used. HMRC allow you to transfer any unused nil-rate allowance to a spouse or RCP, so on current rates this means that when they die their nil-rate band could potentially be £650,000.</p>
+    <p>Leaving assets to unmarried partners or children does not qualify for any IHT relief.</p>
+
+    <p>Please note that you should always seek advice when calculating how much your nil-rate band is, as it may vary depending on your individual circumstances and plans for your estate.</p>
+</div><!--END NIL RATE POPUP-->
+                
+<div class="popup_content">
+    <h3>Leaving money to charity</h3>
+    <p>If you opt to leave more than 10% of your 'baseline' estate to charity, then HMRC will reduce the inheritance tax rate it will charge your estate from 40% to 36%. 'Baseline' estate is the value of your estate remaining after deducting your nil-rate band. So if you have an estate of £500,000 and a nil-rate band of £325,000, then your baseline estate will be £175,000. Normally the inheritance tax bill will be £70,000 (=£175,000 x 40%).</p>
+
+    <p>If however you opt to give 10% or more of your 'baseline' estate to charity, then your IHT rate will fall to 36%. That means at least a £17,500 donation to charity in this case. By applying 36% to your residual estate, after deducting both the nil-rate band and charity donation, then in this case the IHT bill will be £56,700 (= £500,000 - £325,000 - £17,500 = £157,500 x 36%). That's a reduction in the IHT bill of £13,300.</p>
+	<p>If you select the option to leave at least 10% of your estate to charity, the calculator will work out how much inheritance tax you will pay assuming you give 10% of your 'baseline' estate to charity.</p>
+    <p>Please note that you should always seek advice when calculating how much your inheritance tax rate is, as it may vary depending on your individual circumstances and plans for your estate.</p>
+</div><!--END CHARITY POPUP-->
+            
+<div class="popup_content">
+	<h3>OTHER ASSUMPTIONS WE HAVE MADE</h3>
+    <p>Here are some other things we have <strong>not</strong> taken into account in these illustrations:</p>
+	<ol>
+	    <li>Any change in your wealth due to future earnings or capital spending.</li>
+	    <li>Any existing protection policies you may have in place and that are not in trust may be classified as part of your estate for IHT purposes. You may wish to include the value of these existing policies in your &ldquo;other&rdquo; assets category, as these may add to your IHT bill.</li>
+	    <li>Any tax planning you may have already done or might consider doing, in particular the existence of trusts that may change your ultimate IHT bill. You may wish to exclude the value of any assets that you have placed in trust and that you believe are no longer subject to IHT. </li>
+	    <li>Any future changes in the prevailing taxation regime, in particular changes to the inheritance tax rates or the nil-rate bands.</li>
+	    <li>We have also assumed your pensions are not subject to IHT. However many pensions can be  subject to IHT depending on the circumstances. You may wish to include the value of your pensions if you believe they will be included as part of your estate for IHT purposes. Note that where pension benefits are left to dependents other taxes may apply instead of IHT.</li>
+	    <li>We have assumed any business assets fall outside of your estate. You should seek advice on the extent to which any business relief could apply to your business.</li>
+    </ol>
+</div><!--END OTHER ASSUMPTIONS POPUP-->
+                
+<div id="mask"></div>
+<!--<img id="gradient" src="../images/general/gradient_bg.png">-->
+<script type="text/javascript" src="js/calc.js"></script>
+</body>
+</html>
