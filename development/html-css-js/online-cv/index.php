@@ -257,9 +257,9 @@
                     <section class="job-project">
                         <h3><a href="http://www.pruprotect.co.uk/iht_calculator/">Inheritance tax calculator</a></h3>
                         <p>This is PruProtects&rsquo; first foray into the &lsquo;high net worth&rsquo; market and is a disruptive tool aimed to raise the awareness of the need for financial protection. Executed the design, front-end build, calculation engine and integration with Google Graphs API working in conjunction with the actuarial team. Utilises jQuery, javascript, regex for input sanitisation and masking and the Google Graphs API to output the results visually.</p> 
-                        <a href="https://www.pruprotect.co.uk/iht_calculator/" class="primary-button">Visit the Inheritance tax calculator</a>
+                        <a href="projects/iht_calculator/" class="primary-button">Visit the Inheritance tax calculator</a>
                         <div class="project-thumbnail">
-                    		<a href="https://www.pruprotect.co.uk/iht_calculator/">
+                    		<a href="projects/iht_calculator/">
                             	<img src="img/projects/cv-project-IHT-calc.png" width="834" height="1174" alt="Project preview">
                             </a>
                         </div>
