@@ -1,0 +1,165 @@
+CV COPY
+
+INTRO DEV
+I am an email front end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at Selligent. 
+Working with a Technical Project Manager we take requirements from client, formulate briefs/statements of work and develop journeys (Campaigns) and assets to fulfill those requirements. 
+I am highly proficient in all modern front-end web technologies but also understand your data and know how to use it to build highly segmented journeys that target customers using advanced 
+personalisation techniques. Every journey starts with a problem and I’m the person that gets the client to the solution. 
+
+
+I use the Campaign and SMC software to develop and test journeys/campaigns varying from single-shot emails to complex business life-cycle jounrneys.
+We provide advise on best-practice and user experience where possible.
+Building responsive emails using Sublime and testing in-browser is my day-to-day business using Litmus to do final cross-device testing.
+We advise clients and provide training on the platform and how to leverage their data for relevant segmentation and advanced personalisation.
+In addition to this I also provide first line support to clients via our internal ticketing system. This often requires running SQL queries on the back-end to asertain detailed
+info on client data and Campaign execution.
+I've developed a wide range of projects including:
+Competition from (client's front-end posting to Campaign back-end using AJAX + JSON and incorporating Google captcha).
+Dual branded email template where client used a .csv file to prepare content to a specific taxonomy for all fields and could upload this directly into an article list (saved the client days of work).
+Complex preference page with several back-end tables (included setting-up all the tables and relations to the main user list).
+Complex modular responsive templates that enabled the marketer to selsct from various layout modules at will when creating the content.
+Complex modular responsive template that automatically selcted the correct layout given a number of articles.
+Competition sign-up pages.
+Fonrt-line call center application for a major cinema chain. This single page application surfaced information about the clients loyalty account, film viewing history, call history and
+incorporated a voucher generation system.
+
+
+
+
+
+
+INTRO UX
+I am an email front end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at Selligent. 
+Working with a Technical Project Manager we take requirements from client, formulate briefs/statements of work and develop journeys (Campaigns) and assets to fulfill those requirements. I also 
+help clietns to analyse and improve upone htese journeys.e
+I am highly proficient in all modern front-end web technologies but also understand clients' data and know how to use it to build highly segmented journeys that target customers using advanced 
+personalisation techniques. Every journey starts with a problem and I’m the person that gets the client to the solution. 
+
+
+
+
+Deliverance
+
+//////////////////////////////////////////////////////////////////////////////
+1) Research and Discovery
+2) Synthesis
+3) Design and Layout
+4) Testing
+
+1) Problem to be solved
+	- Business goals
+	- User goals
+2) Process to find a solution
+	- Research (Discovery)
+		- Competitors (direct/indirect)
+		- Interviews 
+		- Observation
+		- Survey
+		- Analytics
+	- Insight (Analysis) https://uxmastery.com/resources/techniques/?table_filter=analysis
+		- Personas
+		- Scenarios (what a user wants to acheive)
+		- Synthesis
+			- Gather all data
+				- Observations on post-its
+			- Organise
+				- Group findings
+			- Interprate
+				- Name the groups
+				- Create insights from groups
+				- Refine the insights
+				- Success - what does it look like?
+	- Design - collaborative + iterative
+		- User flows
+		- Wireframes
+		- Prototypes
+	- Build/Production
+		- Visual design
+		- Development
+		- Testing
+
+3) Key deliverables
+4) Outcome and results
+//////////////////////////////////////////////////////////////////////////////
+
+
+[Quote and Apply]
+
+1)	Update branding and look and feel
+	Improve usability
+	Reduce time
+	Improve staight-through underwriting
+
+2)	Interviews with brokers about current system
+	Interviews with brokers to analyse competitors
+	Analytics
+	Personas - different types of brokers
+		Some office some field based some portals
+		Some still used paper and input later (save)
+	Quotes were policy based not user based
+	Confusing terms (SIC v CIC)
+	People often clicking through all tabs
+	Develop suggestion matrix
+	Develop 'plan based' system using algos
+	Split quotes for comparison
+
+3)	Requirements doc from back-end developers
+	User flows for various quotes
+	Begin sketching and wireframing
+	Daily review sessions of wireframes, analsis and improvements
+	Testing with Space01 agency
+	Creation and testing of interactive prototypes
+
+4)	Production of final photoshop designs
+	Build-out of pages locally indicating interactive developments
+	Hand-off to developers
+	Tweaking of html and css
+
+5)	Results
+
+[Spending Calc]
+
+1)	Wanted a way of keeping track of spending
+	Ability to see break-down of spend
+	See spending as %age of last pay day
+
+3)	Requirements
+	Keep track of last pay day (PHP scripting)
+	Last amount of pay
+	Input spend and ability to categorise
+	User registration and login
+
+4)	Wireframes 
+	Final designs
+	Build front end
+	Build back end
+
+[Simon Winstanly Architects]
+[D2C quote]
+
+[Literature and Tools]
+
+1)	As the literature library kept growing it was becoming increasingly difficult to present these documents online.
+	Business wanted brokers to be able to download items as opposed to ordering
+	Business wanted insight into what was being used the most
+	Users neede to be able to find what they needed
+	marketers needed a way to keep track of items and update site
+2)	Used XML to formulate catelogue of items
+	Built jQuery front-end to pull-in XML file and provide three panel drill-down
+	Filtering system for Adviser/Customer facing items
+	Live search 
+	Incorporated custom events in GA to track downloads
+
+[Deliverance App]
+
+
+
+
+Spending calc
+
+
+Write-up Bike sensor project
+
+Save multiple locations
+
+Bike gloves with indicators

@@ -13,7 +13,6 @@ $(function(){
 		//images.empty();
 		var l = imgArray.length;
 		var currentZ = $(clicked).css('z-index');
-		console.log($(clicked).css('z-index'));
 		$(clicked).css('z-index',currentZ -l);
 		/*$(imgArray).each(function(i){
 			var z = $(this).css('z-index');
