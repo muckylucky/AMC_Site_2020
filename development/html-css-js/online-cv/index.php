@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Andrew McCluckie</title>
+<meta name="description" content="User Experience Product Designer based in London." />
+<title>[% Andrew McCluckie %]</title>
 <link rel="stylesheet" href="css/main.css" />
 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
@@ -70,15 +71,10 @@
         <article class="article-section" id="statement">
             <h2>Statement</h2>
             <p>An outcome driven UX Designer with a passion for the way users interact with our software, an Omni-Channel Marketing Execution platform. With many years working in Design and Development roles I have a broad range of experience in delivering digital solutions that exceed user expectations and are aesthetically pleasing. My experience of development means I am familiar with the implementation of designs and can communicate effectively with engineers to effectively deliver projects in a fast paced Agile environment.</p>
-			<p>At Selligent Marketing Cloud I work on testing and improving existing features and designing new ones for our Marketing Cloud software.</p>
-            <p>Current clients we work for include:</p>
-            <ul>
-                <li>Find My Past</li>
-                <li>Autotrader</li>
-                <li>Tesco </li>
-                <li>Tesco Mobile</li>
-            </ul>
-            <p>I also own my family name's dotcom address :)<br /><a href="http://mccluckie.com/">McCluckie.com</a></p>
+			<p>At Selligent Marketing Cloud (<em>SMC</em>) I work in a Design team for our Senior Product Designer and alongside one other Product Designer to test and improving existing features and design new ones for our Marketing Cloud software.</p>
+            <p>A comprehensive list of clients using SMC can be <a href="https://www.selligent.com/industries">found here</a>.</p>
+
+            <p>I also own my family name&rsquo;s dotcom address :)<br /><a href="http://mccluckie.com/">McCluckie.com</a></p>
         </article>
         <!--END STATEMENT-->
         
