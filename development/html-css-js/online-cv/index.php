@@ -16,8 +16,10 @@
 
 <div class="header mobile">
 	<div class="header-logo">
+            <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Product/UX Designer" width="200px">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
             <h2>Product Designer</h2>
+            <h4><small>Online since 1698</small></h4>
     </div>
 </div>
     
@@ -27,6 +29,7 @@
             <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Product/UX Designer" width="200px">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
             <h2>Product Designer</h2>
+            <h4><small>Online since 1698</small></h4>
         </div>
     </div>
     <div class="header-contact">
@@ -75,13 +78,13 @@
                 <li>Tesco </li>
                 <li>Tesco Mobile</li>
             </ul>
-
+            <p>I also own my family name's dotcom address :)<br /><a href="http://mccluckie.com/">McCluckie.com</a></p>
         </article>
         <!--END STATEMENT-->
         
         <article class="article-section-full-width clearfix" > 
-			<section class="skillset-column latest-projects">
-                <ul><!--
+			<!--<section class="skillset-column latest-projects">
+                <ul>
                     <h3>Recent projects</h3>
                     <li>
                         <a href="http://simonwinstanley.com/">Simon Winstanley Architects</a>
@@ -100,22 +103,22 @@
                     </li>
                     <li>
                         <a href="https://www.pruprotect.co.uk/iht-calculator/">Inheritence tax calculator</a>
-                    </li>-->
+                    </li>
                 </ul>
 			</section>
-                        
-            <section class="skillset-column">
-                <ul id="webskills">
+                     -->   
+            <section class="skillset-column fullWidth">
+                <ul id="webskills" class="">
                    	<h3>UI / UX</h3>
-                   	 <li>Balsamiq Mockups</li>
                    	 <li>Axure</li>
                    	 <li>Sketch</li>
+                     <li>Balsamiq Mockups</li>
                    	 <li>Research</li>
                    	 <li>User Testing (moderated)</li>
                    	 <li>Google Analytics</li>
                    	 <li>AppInsights</li>
                    	 <li>UserTesting.com</li>
-                     <li>A / B testing with <a href="http://www.qubit.com/">Qubit</a> </li>
+                     <li>A/B testing with <a href="http://www.qubit.com/">Qubit</a> </li>
                 </ul>
 			</section>
             <section class="skillset-column">
@@ -141,7 +144,8 @@
                     <li>InDesign</li>
                 </ul>
                 <ul class="adobe-icons">
-                	<li><img src="img/adobe-icon-dreamweaver.png" width="46" height="46" alt="Adobe Dreamweaver"></li>
+                    <li><img src="img/Sketch_logo_frame.svg" width="46" height="46" alt="Sketch"></li>
+                    <li><img src="img/adobe-icon-dreamweaver.png" width="46" height="46" alt="Adobe Dreamweaver"></li>
                 	<li><img src="img/adobe-icon-photoshop.png" width="46" height="46" alt="Adobe Photoshop"></li>
                 	<li><img src="img/adobe-icon-illustrator.png" width="46" height="46" alt="Adobe Illustrator"></li>
                 	<li><img src="img/adobe-icon-indesign.png" width="46" height="46" alt="Adobe InDesign"></li>
@@ -184,16 +188,27 @@
 
                     <h2>Key projects</h2>
                     <section class="job-project">
-                        <h3><a href="https://www.pruprotect.co.uk/">PruProtect website</a></h3> 
-                        <p>Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality. Recently launched fully responsive version.</p>
-                        <a href="https://www.pruprotect.co.uk/" class="primary-button">Visit the site</a> 
+                        <h3><a href="https://www.vitality.co.uk/">PruProtect website</a></h3> 
+                        <p>Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
+
                         <div class="project-thumbnail">
                     		<a href="#">
                             	<img src="img/projects/cv-project-pruprotect.gif" width="1334" height="1718" alt="Project preview">
                             </a>
                         </div>
                     </section>
-                    
+                                   
+                    <section class="job-project">
+                        <h3><a href="../projects/iht_calculator/">Inheritance tax calculator</a></h3>
+                        <p>This is PruProtects&rsquo; first foray into the &lsquo;high net worth&rsquo; market and is a disruptive tool aimed to raise the awareness of the need for financial protection. Executed the design, front-end build, calculation engine and integration with Google Graphs API working in conjunction with the actuarial team. Utilises jQuery, javascript, regex for input sanitisation and masking and the Google Graphs API to output the results visually.</p> 
+                        <a href="../projects/iht_calculator/" class="primary-button">Visit the Inheritance tax calculator</a>
+                        <div class="project-thumbnail">
+                            <a href="../projects/iht_calculator/">
+                                <img src="img/projects/cv-project-IHT-calc.png" width="834" height="1174" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+                                        
                     <section class="job-project">
     					<h3><a href="projects/proj-vitality-quick-quote.php">Quick quote</a></h3>
                         <p>Delivered the Design and build of this quote system in an extremely short time &ndash; frame. Worked on UX/UI through final designs and complete front-end build. The quote is fully responsive and built upon the latest version of Bootstrap.</p>
@@ -234,16 +249,27 @@
                                    
                     <section class="job-project">
     					<h3><a href="http://www.pruhealth.co.uk/">PruHealth.co.uk</a></h3>
-                        <p>I am responsible for the design of the main landing page for both customers and advisers.</p>
-                        <a href="projects/proj-vitalityHealth.php" class="primary-button">Read more</a>
+                        <p>I am responsible for the design of the main landing page for both customers and advisers. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
+                        <a href="../projects/proj-vitalityHealth.php" class="primary-button">Read more</a>
                         <a href="http://www.pruhealth.co.uk/" class="secondary-button">Visit PruHealth.co.uk</a> 
                         <div class="project-thumbnail">
-                    		<a href="http://www.pruhealth.co.uk/">
+                    		<a href="#">
                             	<img src="img/projects/cv-project-PruHealth.png" width="600" height="831" alt="Project preview">
                             </a>
                         </div>
     				</section>                
-                    
+                       
+                    <section class="job-project">
+                        <h3><a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/">Literature and tools</a></h3>
+                        <p>Self-initiated project. Developed jQuery, XML and AJAX based literature browsing catalogue to enable advisers to easily browse full range of over 200 items. 100% dynamic – features include advanced filtering, live-search and easy content management interface to enable catalogue updating by marketing team. Integrated Google Analytics to provide real-time MI on downloads of all documents (pdfs/docs/xls/online tools). Implemented XML work-around as database driven solution was unsuitable.</p>
+                        <a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/" class="primary-button">Visit Literature and tools</a>
+                        <div class="project-thumbnail">
+                            <a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/">
+                                <img src="img/projects/cv-project-LandT.png" width="1194" height="1028" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+
                     <section class="job-project">
     					<h3><a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">Direct to consumer quote</a></h3>
                         <p>Another first for PruProtect – this marks the beginning of the push into the D2C market. I was involved in all aspects, from wireframing, UI/UX to the final build. </p>
@@ -266,18 +292,7 @@
                             </a>
                         </div>
                     </section>
-                                   
-                    <section class="job-project">
-                        <h3><a href="http://www.pruprotect.co.uk/iht_calculator/">Inheritance tax calculator</a></h3>
-                        <p>This is PruProtects&rsquo; first foray into the &lsquo;high net worth&rsquo; market and is a disruptive tool aimed to raise the awareness of the need for financial protection. Executed the design, front-end build, calculation engine and integration with Google Graphs API working in conjunction with the actuarial team. Utilises jQuery, javascript, regex for input sanitisation and masking and the Google Graphs API to output the results visually.</p> 
-                        <a href="projects/iht_calculator/" class="primary-button">Visit the Inheritance tax calculator</a>
-                        <div class="project-thumbnail">
-                    		<a href="projects/iht_calculator/">
-                            	<img src="img/projects/cv-project-IHT-calc.png" width="834" height="1174" alt="Project preview">
-                            </a>
-                        </div>
-                    </section>
-                    
+
                     <section class="job-project">
                         <h3><a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">MyPlan app</a></h3> 
                         <p>Led the MyPlan App project; creating user-journeys, wireframes, mobile UI designs and specifications as well as managing external development agency. The app enables advisers to drive business by helping them outline PruProtects&rsquo; core propositions with clients.</p>
@@ -287,17 +302,7 @@
                             </a>
                         </div>
                     </section>
-                    
-                    <section class="job-project">
-                        <h3><a href="https://www.pruprotect.co.uk/adviser/literature_and_tools/">Literature and tools</a></h3>
-                        <p>Self-initiated project. Developed jQuery, XML and AJAX based literature browsing catalogue to enable advisers to easily browse full range of over 200 items. 100% dynamic – features include advanced filtering, live-search and easy content management interface to enable catalogue updating by marketing team. Integrated Google Analytics to provide real-time MI on downloads of all documents (pdfs/docs/xls/online tools). Implemented XML work-around as database driven solution was unsuitable.</p>
-                        <a href="https://www.pruprotect.co.uk/adviser/literature_and_tools/" class="primary-button">Visit Literature and tools</a>
-                        <div class="project-thumbnail">
-                    		<a href="https://www.pruprotect.co.uk/adviser/literature_and_tools/">
-                            	<img src="img/projects/cv-project-LandT.png" width="1194" height="1028" alt="Project preview">
-                            </a>
-                        </div>
-                    </section>
+
 
 			</section>
             <!--END VITALITY-->
