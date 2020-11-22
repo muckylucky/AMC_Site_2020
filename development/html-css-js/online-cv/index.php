@@ -17,15 +17,16 @@
 <div class="header mobile">
 	<div class="header-logo">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
-            <h2>Web design and UX/UI</h2>
+            <h2>Product Designer</h2>
     </div>
 </div>
     
 <div class="wrapper">
 	<div class="header">
     	<div class="header-logo">
+            <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Product/UX Designer" width="200px">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
-            <h2>Web design and UX/UI</h2>
+            <h2>Product Designer</h2>
         </div>
     </div>
     <div class="header-contact">
@@ -54,28 +55,33 @@
     
     
     <article class="clearfix" id="main">
-    
+
+        <div class="logos_employment">
+            <ul class="list_unstyled">
+                <li><img src="/img/employment_logos/logo-smc_0.png" alt="Logo: Selligent Marketing Cloud" width="200px"></li>
+                <li><img src="/img/employment_logos/vitality-logo.svg" alt="Logo: Vitality" width="160px"></li>
+                <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
+            </ul>
+        </div>
+
         <article class="article-section" id="statement">
             <h2>Statement</h2>
-            <p>I am a front-end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at <a href="https://www.selligent.com/">Selligent</a>. I am highly proficient in all modern front-end web technologies but also understand your data and know how to use it to build highly segmented journeys that target customers using advanced personalisation techniques.</p>
+            <p>An outcome driven UX Designer with a passion for the way users interact with our software, an Omni-Channel Marketing Execution platform. With many years working in Design and Development roles I have a broad range of experience in delivering digital solutions that exceed user expectations and are aesthetically pleasing. My experience of development means I am familiar with the implementation of designs and can communicate effectively with engineers to effectively deliver projects in a fast paced Agile environment.</p>
+			<p>At Selligent Marketing Cloud I work on testing and improving existing features and designing new ones for our Marketing Cloud software.</p>
             <p>Current clients we work for include:</p>
             <ul>
-                <li>Odeon</li>
-                <li>Secret Sales</li>
-                <li>Crowdcube</li>
                 <li>Find My Past</li>
                 <li>Autotrader</li>
                 <li>Tesco </li>
                 <li>Tesco Mobile</li>
             </ul>
-            <p>Previously I worked for <a href="https://www.vitality.co.uk/sdfsdf/">Vitality</a> (look: they're still using my 404 design!) as a Web Designer, so I can design stuff too!</p>
 
         </article>
         <!--END STATEMENT-->
         
         <article class="article-section-full-width clearfix" > 
 			<section class="skillset-column latest-projects">
-                <ul>
+                <ul><!--
                     <h3>Recent projects</h3>
                     <li>
                         <a href="http://simonwinstanley.com/">Simon Winstanley Architects</a>
@@ -94,40 +100,38 @@
                     </li>
                     <li>
                         <a href="https://www.pruprotect.co.uk/iht-calculator/">Inheritence tax calculator</a>
-                    </li>
+                    </li>-->
                 </ul>
 			</section>
-            
+                        
+            <section class="skillset-column">
+                <ul id="webskills">
+                   	<h3>UI / UX</h3>
+                   	 <li>Balsamiq Mockups</li>
+                   	 <li>Axure</li>
+                   	 <li>Sketch</li>
+                   	 <li>Research</li>
+                   	 <li>User Testing (moderated)</li>
+                   	 <li>Google Analytics</li>
+                   	 <li>AppInsights</li>
+                   	 <li>UserTesting.com</li>
+                     <li>A / B testing with <a href="http://www.qubit.com/">Qubit</a> </li>
+                </ul>
+			</section>
             <section class="skillset-column">
                 <ul id="webskills">
                    	<h3>Web skillset</h3>
                     <li>HTML 5</li>
                     <li>CSS 3</li>
-                    <li>Balsamiq Mockups</li>
                     <li>Javascript</li>
                     <li>jQuery</li>
                     <li>PHP / MySQL</li>
                     <li>XML</li>
                     <li>AJAX</li>
-                    <li>Flash</li>
-            
                 </ul>
 			</section>
                         
-                        
-            <section class="skillset-column">
-                <ul id="webskills">
-                   	<h3>Addtional skillset</h3>
-                    <li>UI / UX</li>
-                    <li>Responsive design</li>
-                    <li>Mobile design (Android)</li> 
-                    <li>Wordpress</li>
-                    <li>SEO</li>
-                    <li>Versions (SVN) Version control and GIT</li> 
-                    <li>Sitecore certified</li>
-                    <li>A / B testing with <a href="http://www.qubit.com/">Qubit</a> </li>
-                </ul>
-			</section>
+
             <section class="skillset-column">
                 <ul id="webskills">
                    	<h3>General design</h3>
@@ -138,7 +142,6 @@
                 </ul>
                 <ul class="adobe-icons">
                 	<li><img src="img/adobe-icon-dreamweaver.png" width="46" height="46" alt="Adobe Dreamweaver"></li>
-                	<li><img src="img/adobe-icon-flash.png" width="46" height="46" alt="Adobe Flash"></li>
                 	<li><img src="img/adobe-icon-photoshop.png" width="46" height="46" alt="Adobe Photoshop"></li>
                 	<li><img src="img/adobe-icon-illustrator.png" width="46" height="46" alt="Adobe Illustrator"></li>
                 	<li><img src="img/adobe-icon-indesign.png" width="46" height="46" alt="Adobe InDesign"></li>
@@ -152,7 +155,17 @@
             
         	<h2>Work history</h2>
             <section class="job-entry">
-                <time>October 2016-Present</time>
+                <time>August 2019-Present</time>
+                <section class="job-project">
+                    <h1>Product Designer<small>&mdash;Selligent </small></h1>
+                    <p>Working as part of the Product Design Team we continually develop and improve the Selligent Marketing Cloud marketing execution platform according to business and client needs.<br>
+                    We are responsible for taking briefs from services, feature requests from customers and identifying where UX improvements can be brought according to our own analysis. We work with engineering in 6 week sprints to continually develop and deploy new features.</p>
+                  <a href="https://www.selligent.com/" class="primary-button-sell">Visit the site</a>
+                </section>            
+            </section>
+
+            <section class="job-entry">
+                <time>October 2016-July 2019</time>
                 
       
                 <section>
