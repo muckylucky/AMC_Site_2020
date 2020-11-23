@@ -325,7 +325,7 @@
     
  
     <div class="footer">
-    	<p id="copyright_notice">&copy; <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
+    	<p id="copyright_notice"><sup>&copy;</sup> <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
     </div>
 </div>
 </body>
