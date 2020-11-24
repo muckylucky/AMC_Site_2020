@@ -327,6 +327,7 @@
     <div class="footer">
     	<p id="copyright_notice"><sup>&copy;</sup> <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
     </div>
+    <img src="../img/me_portrait.jpg" alt="Booya" width="200" style="position:absolute;bottom:0;right:0">
 </div>
 </body>
 </html>
