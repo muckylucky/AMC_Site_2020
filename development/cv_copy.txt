@@ -1,5 +1,48 @@
 CV COPY
 
+Product Designer
+
+Product
+Omni-channel marketing execution platform
+	Journeys 
+	Email builder
+	Analytics
+Clients
+
+Team
+	Senior Product Designer, myself and another designer.
+	Work in Product team
+	Engineers
+	CSMs
+
+Process
+	Empathise, 
+		Clients
+		Field research
+		Support
+		Journey mapping
+	Define, 
+		
+
+	Ideate, 
+
+	Prototype, 
+
+	Test, 
+
+	Hand-off
+		
+
+
+
+
+
+
+
+
+
+
+
 INTRO DEV
 I am an email front end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at Selligent. 
 Working with a Technical Project Manager we take requirements from client, formulate briefs/statements of work and develop journeys (Campaigns) and assets to fulfill those requirements. 

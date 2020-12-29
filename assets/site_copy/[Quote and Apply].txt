@@ -3,11 +3,12 @@
 1)	Update branding and look and feel
 	Improve usability
 	Reduce time
-	Improve staight-through underwriting
+	Improve straight-through underwriting
 
 
 
-2)	Interviews with brokers about current system
+2)	Field Research
+	Interviews with brokers about current system
 	Interviews with brokers to analyse competitors
 	Analytics
 	Personas - different types of brokers

@@ -1,0 +1,119 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1838" measuredH="1257" mockupW="1756" mockupH="1231">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="82" y="26" w="1756" h="1231" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="155" y="168" w="1610" h="990" measuredW="100" measuredH="70" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="91" y="168" w="56" h="56" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Menu</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="866" y="113" w="188" h="44" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="308" y="278" w="1308" h="764" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="286" y="286" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandClosedIcon%7Cxlarge</icon>
+        <rotation>270</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="1567" y="286" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandClosedIcon%7Cxlarge</icon>
+        <rotation>90</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="928" y="969" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>LeftFillTriangleIcon%7Cxlarge</icon>
+        <rotation>90</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::ButtonBar" x="170" y="1116" w="-1" h="-1" measuredW="196" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Desktop%2C%20Tablet%2C%20Mobile</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Icon" x="1531" y="954" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>Info2Icon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="811" y="212" w="-1" h="-1" measuredW="300" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PROJECT%20TITLE%20UP%20HERE</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="308" y="278" w="1307" h="763" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="384" y="337" w="1152" h="638" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>16</size>
+        <text>The%20decision%20was%20taken%20by%20the%20business%20to%20redesign%20the%20adviser-facing%20quote%20and%20apply%20system%20in%202011.%20The%20previous%20system%20was%20old%2C%20slow%20and%20had%20a%20number%20of%20usability%20issues.%20Key%20among%20these%20was%20an%20awkward%2C%20double%20layer%20of%20tabs%20which%20we%20realised%20from%20the%20analytics%20meant%20that%20advisers%20were%20clicking%20through%20each%20benefit%20tab%20even%20if%20they%20only%20wanted%20to%20quote%20on%20one%20product/benefit.%0A%20%0ABUSINESS%20OBJECTIVES%0ADrive%20sales%20and%20revenue%0ACustomer%20centric%2C%20support%20and%20assist%20the%20sales%20process%0ACost%20savings/efficiencies%20%28decrease%20quote%20time%20and%20increase%20STR%29%0AImprove%20navigation%20and%20usability%0A%20%0AStarting%20with%20a%20business%20requirements%20document%20I%20worked%20with%20our%20business%20analyst%20to%20break-down%20the%20process%20into%20use%20cases%2C%20and%20from%20there%20into%20individual%20screens.%0ATo%20solve%20the%20problem%20of%20advisers%20clicking%20through%20tabs%20it%20was%20decided%20to%20use%20a%20%u2018quote%20workspace%u2019%20area.%20From%20here%20advisers%20could%20access%20a%20%u2018menu%u2019%20of%20all%20the%20products%20and%20additional%20benefits.%20Each%20product%20or%20benefit%20would%20open%20in%20its%20own%20modal%20window.%20%0A%20%0ANow%20began%20the%20wire%20framing%20process%20%28alas%20I%20no%20longer%20have%20the%20sketches%20for%20this%20process%29.%20Numerous%20layouts%20were%20worked-up%2C%20first%20on%20paper%20and%20then%20in%20Illustrator.%20Myself%2C%20our%20business%20analyst%20and%20the%20marketing%20stakeholder%20would%20then%20crib%20each%20one%20intensively%20in%20order%20to%20arrive%20at%20the%20final%20design%20of%20the%20quote%20workspace.%0A%20%0A%20%0AOne%20of%20the%20largest%20projects%20I%20undertook%20for%20PruProtect%20was%20the%20redesign%20of%20the%20entire%20adviser%20quote%20and%20apply%20system.%20With%20something%20in%20the%20region%20of%2030%2C000%20quote%20being%20produced%20by%20advisers%20every%20month%20and%20providing%20the%20backbone%20of%20PruProtects%20business%20this%20was%20no%20small%20feat.%20The%20old%20system%20was%20creaky%2C%20unintuitive%20and%20slow%20to%20progress%20through.%20I%20was%20tasked%20with%20bringing%20it%20up-to-date.%0AI%20worked%20on%20the%20interprocess%20on%20this%2C%20from%20taking%20the%20BRD%20and%20creating%20wireframes%20through%20the%20UX%20journeys%20to%20the%20final%20design%20and%20a%20fully-functioning%20front-end%20build%20finishing%20by%20helping%20our%20development%20team%20to%20deliver%20something%20close%20to%20the%20original%20designs.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::RoundButton" x="1566" y="1067" w="49" h="49" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>6710886</borderColor>
+        <color>6710886</color>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="1575" y="1078" w="-1" h="-1" measuredW="33" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>UX</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::RoundButton" x="1509" y="1067" w="49" h="49" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>6710886</borderColor>
+        <color>6710886</color>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::SubTitle" x="1512" y="1078" w="-1" h="-1" measuredW="44" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Des</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::RoundButton" x="1450" y="1067" w="49" h="49" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>6710886</borderColor>
+        <color>6710886</color>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::SubTitle" x="1461" y="1078" w="-1" h="-1" measuredW="27" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>jQ</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
