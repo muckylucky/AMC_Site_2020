@@ -8,7 +8,7 @@ foreach($objects as $name => $object){
     echo "$name\n";
 }*/
 
-$scan = scandir('photography/');
+$scan = scandir('../photography/');
 var_dump($scan);
 
 echo '<ul>';
@@ -37,8 +37,8 @@ foreach (new DirectoryIterator('photography/') as $fileInfo) {
     }
 }*/
 
-$iterator = new DirectoryIterator('photography/');
-
+$iterator = new DirectoryIterator('../photography/');
+echo 'Helloe';
 echo '<ul>';
 foreach ($iterator as $fileinfo) {
     if ($fileinfo->isDir() && $fileinfo != '.' && $fileinfo != '..' && $fileinfo != '_notes') {
