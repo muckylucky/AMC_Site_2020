@@ -39,38 +39,28 @@
 
       <div id="content">
    		<h1>Photography</h1>
-        
-        <ul id="phot_links">
-    		<li><a href="lot_1">Lot one</a></li>
-    		<li><a href="lot_2">Lot two</a></li>
-            <li><a href="lot_3">Lot three</a></li>
-            <li><a href="lot_4">Lot four</a></li>
-            <li><a href="lot_5">Lot five</a></li>
-            <li><a href="lot_6">Lot six</a></li>
-            <li><a href="lot_7">Lot seven</a></li>
-            <li><a href="lot_8">Lot eight</a></li>
-            <li><a href="lot_9">Lot nine</a></li>
-            <li><a href="lot_10">Lot ten</a></li>
-            <li><a href="lot_11">Lot eleven</a></li>
-            <li><a href="lot_12">Lot twelve</a></li>
-            <li><a href="lot_13">Lot thirteen</a></li>
-        </ul>
+        <?php include("build_links.php");?>
+
         
     	<div id="photo_viewer">
         	
             
 
 				<?php
-                	$set = "lot_1"; // Value set as default for intial load
+
+                	$set = "December"; // Value set as default for intial load
 					$defaultMainImage = "001.jpg"; // See above ^
-					$defaultMainImagePath = $set . "/large/001.jpg"; // Get full image url
+					$thumbs_folder = '/img_thumb/';
+					$main_folder = '/img_main/';
+					$defaultMainImage = "001.jpg"; // Get full image url
                     $imgArray = array();
-					$defaultImageSize = getimagesize($defaultMainImagePath); // Get dimensions of main image - saves on browser 'painting' time
+                    echo $defaultMainImagePath ;
+					$defaultImageSize = getimagesize($set . $main_folder . $defaultMainImage 	); // Get dimensions of main image - saves on browser 'painting' time
 					
 					/* Check to see if set variable has been defined - it won't have on initial load */
 					if (isset($_GET['set']) ) {
 						$set = $_GET['set'];
-						$defaultMainImagePath = $set . "/large/001.jpg"; // Construct full image path
+						$defaultMainImagePath = $set . $set . $main_folder . $defaultMainImage; // Construct full image path
 						$defaultImageSize = getimagesize($defaultMainImagePath); // Get image dimensions
 					} 
 										
@@ -79,17 +69,18 @@
                     /* Open aspecified directory, and proceed to read its contents to generate the thumbnails
 					   Will grab all images of jpg or gif type
 					*/
-                    foreach(glob($set . "/thumb/{*.jpg,*.gif}", GLOB_BRACE) as $image)
+					   echo 'Test: ' . $set;
+                    foreach(glob($set . $thumbs_folder . "{*.jpg,*.gif}", GLOB_BRACE) as $image)
                     {
                         $split = explode('/', $image); // Split image path to get filename
                         $img = $split[2];
-                        array_push($imgArray, $set . '/thumb/' . $image); // Store images in an array in case needed for later development/refinement
-                        $size = getimagesize($set . '/thumb/' . $img); // Get each thumbnails size. Should all be same but you never know
-                        echo '<a href="photography/' . $set . '/large/' . $img . '" target="blank"><img src="photography/' . $set . '/thumb/' . $img . '" class="photo_thumbs" alt="image thumbnail" width="' . $size[0] . '" height="' . $size[1] . '"/></a>'; //Output the html for thumbnail
+                        array_push($imgArray, $set . '/img_thumb/' . $image); // Store images in an array in case needed for later development/refinement
+                        $size = getimagesize($set . '/img_thumb/' . $img); // Get each thumbnails size. Should all be same but you never know
+                        echo '<a href="photography/' . $set . $main_folder . $img . '" target="blank"><img src="' . $set . $thumbs_folder . $img . '" class="photo_thumbs" alt="image thumbnail" width="' . $size[0] . '" height="' . $size[1] . '"/></a>'; //Output the html for thumbnail
                     }
                 	echo '</div><!--END THUMBS WRAPPER-->';					
 					
-					echo '<img id="main_photo" src="photography/' . $defaultMainImagePath . '" width="' . $defaultImageSize[0] . '" height="' . $defaultImageSize[1] . '" alt="Main image" />'; // Display main image
+					echo '<img id="main_photo" src="' . $set . $main_folder . $defaultMainImage . '" width="' . $defaultImageSize[0] . '" height="' . $defaultImageSize[1] . '" alt="Main image" />'; // Display main image
 
 
                 ?>
