@@ -3,16 +3,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Web Projects</title>
+<title>Photography</title>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<style>
+html,
+body,
+.section-images {
+  height: 100%;
+  margin: 0;
+}
+.photo_viewer {
+  margin: auto 2em;
+  text-align: center;
+}
+img#main_img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; 
+}
 
-<!--[if lte IE 7]>
-<link rel="stylesheet" type="text/css" href="ie7.css" />
-<![endif]-->
-<!--[if lte IE 6]>
-<link rel="stylesheet" type="text/css" href="ie7.css" />
-<![endif]-->
+</style>
 </head>
 
 <body>
@@ -69,7 +82,7 @@
                     /* Open aspecified directory, and proceed to read its contents to generate the thumbnails
 					   Will grab all images of jpg or gif type
 					*/
-					   echo 'Test: ' . $set;
+					
                     foreach(glob($set . $thumbs_folder . "{*.jpg,*.gif}", GLOB_BRACE) as $image)
                     {
                         $split = explode('/', $image); // Split image path to get filename
@@ -87,5 +100,21 @@
 		</div><!--END PHOT VIEWER-->
       </div><!--END CONTENT-->
 	</div><!--END WRAPPER -->
+
+<script>
+    $(function(){
+        function photography($target,$image) {
+        	var $target = $target || $('#main_photo');
+        	var $links = $('#photo_thumbs_wrapper').find('a');
+        	$links.click(function(e){
+        		e.preventDefault();
+        		var $URLstring = $(this).attr('href').split('/').slice(-1)[0];
+        		console.log($URLstring);
+        	});
+        	console.log($target);
+        }
+        photography();
+    })
+</script>
 </body>
 </html>
