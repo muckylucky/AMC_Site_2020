@@ -65,7 +65,7 @@ img#main_img {
 					$defaultMainImage = "001.jpg"; // See above ^
 					$thumbs_folder = '/img_thumb/';
 					$main_folder = '/img_main/';
-					$defaultMainImage = "001.jpg"; // Get full image url
+					$defaultMainImage = "IMG_5431.jpg"; // Get full image url **************************REPLACE MANUAL IMAGE SETTING*******************
                     $imgArray = array();
                     echo $defaultMainImagePath ;
 					$defaultImageSize = getimagesize($set . $main_folder . $defaultMainImage 	); // Get dimensions of main image - saves on browser 'painting' time
@@ -109,7 +109,11 @@ img#main_img {
         	$links.click(function(e){
         		e.preventDefault();
         		var $URLstring = $(this).attr('href').split('/').slice(-1)[0];
+        		var $basePath = <?php echo "'$set$main_folder'" ?>;
+        		var $imgSRC = $basePath + $URLstring;
+        		$target.attr('src', $imgSRC);
         		console.log($URLstring);
+
         	});
         	console.log($target);
         }
