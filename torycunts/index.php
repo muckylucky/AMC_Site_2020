@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="User Experience Product Designer based in London." />
+<meta name="description" content="ATAB" />
 <title>[% Cunts: All of them %]</title>
 <link rel="stylesheet" href="css/main.css" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,14 +19,14 @@
   z-index:1;
   position: absolute;
 }
-.wrapper {position: relative;z-index:2;}
+body {background-image:url(/img/union_jack.png);}
 </style>
 </head>
 <body>
 	
 
-	<?php include_once("../includes/analyticstracking.php") ?>
-<img src="/img/flag_shaggers.jpg" alt="Flag shaggers" id="main_bg">
+<?php include_once("../includes/analyticstracking.php");?>
+
 <div class="header mobile">
 
 </div>
@@ -48,29 +48,20 @@
 
         <article class="article-section" id="statement">
             <h1 class="gothic">Welcome to Tory Cunts!</h1>
-                <img src="img/Boris_Johnson_official_portrait_(cropped).jpg" alt="Tory Cunt: Boris" width="300" style="">
+                <img src="../img/Boris_Johnson_official_portrait_(cropped).jpg" alt="Tory Cunt: Boris" width="300" style="" class="portrait">
+              <p>Welcome fellow flag-shaggers. How many Union Jacks can you see on this page? I'll tell you: FUCKING LOADS. That makes me an absolute <em>patriot</em> and thereby gains me immunity on an international level from arguments that use morals or logic as their basis.<br>
+Anyone who feels &lsquo;triggered&rsquo; by the content of this website can go and build their fucking own and live there.</p>
+              <select name="cunt_selector" id="cunt_selector">
+                <option value="">--Pick cunt, any cunt--</option>
 
+            </select>
         </article>
-        
-        <article class="article-section-full-width clearfix" > 
 
-            
-        </article>
-        
-        <article class="article-section" id="">
-            
-
-
-			</section>
- 
-        </article>
-        
-    </article>
-    
  
     <div class="footer">
 
     </div>
 </div>
+
 </body>
 </html>
