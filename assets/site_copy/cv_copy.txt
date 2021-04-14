@@ -41,11 +41,28 @@ personalisation techniques. Every journey starts with a problem and I’m the pe
 Deliverance
 
 //////////////////////////////////////////////////////////////////////////////
-1) Research and Discovery
-2) Synthesis
-3) Design and Layout
-4) Testing
+Whilst studying the User Experience Design Circuit at the General Assembly we had to choose a subject to be the focus of our studies. The end goal was to build a clickable prototype that would solve a particular problem or user need.
+Recently at the time I had a frustrating experienced getting a new phone delivered to my workplace in the city of London. I was checking the couriers progress every 5 minutes as they approached to make sure I wouldn't miss them only, on my last refresh, to see that they had attempted, but failed, to deliver my package accompanied by a forlorn picture of the building's loading bay. 
+Knowing that they couldn't have gotten far and would most likely have other deliveries in the area I charged-out into Leadenhall market looking for them. I approached one of the delivery companies vans but, alas, it wasn't the same one.
+Clearly this was an experience that had room for improvement and improving the delivery companies app experience became the focus of my studies.
 
+1) Research and Discovery
+	Competitor research
+	Evaluation of existing process
+	Interviews 
+	Empathy maps
+2) Synthesis
+	Insights
+	Pain points
+	Opportunities
+	How Might We
+	Card sorting - information architecture
+	
+3) Design and Layout
+	Sketching 
+	Paper prototypes
+4) Testing
+	Using paper prototypes
 1) Problem to be solved
 	- Business goals
 	- User goals
