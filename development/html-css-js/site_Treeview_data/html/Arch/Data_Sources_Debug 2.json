@@ -1,0 +1,455 @@
+{
+    "Segment_data":
+    {
+        "Overall":
+        {
+            "Webmetrics": {
+                "Frequency":
+                {
+                    "Number of": ["Hits", "Visits"],
+                    "in the last": ["day", "week", "month", "3 months"],
+                    "is": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                    "value": ["average", "custom value"]
+                },
+                "Recency":
+                {
+                    "last":
+                    {
+                        "hit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        },
+                        "visit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        }
+                    },
+                    "previous":
+                    {
+                        "hit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        },
+                        "visit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        }
+                    },
+                    "first":
+                    {
+                        "hit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        },
+                        "visit":
+                        {
+                            "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                            "time": "DT"
+                        }
+                    }
+                },
+                "Engagement":
+                {
+                    "Average":
+                    {
+                        "Average":
+                        {
+                            "Time":
+                            {
+                                "Per": ["visit", "day", "week", "month"],
+                                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                                "value": ["average", "custom value"]
+                            },
+                            "Pages":
+                            {
+                                "Per": ["visit", "day", "week", "month"],
+                                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                                "value": ["average", "custom value"]
+                            },
+                            "Visits":
+                            {
+                                "Per": ["visit", "day", "week", "month"],
+                                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                                "value": ["average", "custom value"]
+                            }
+                        }
+                    },
+                    "Total":
+                    {
+                        "Time":
+                        {
+                            "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                            "value": ["average", "custom value"]
+                        },
+                        "Pages":
+                        {
+                            "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                            "value": ["average", "custom value"]
+                        },
+                        "Visits":
+                        {
+                            "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                            "value": ["average", "custom value"]
+                        }
+                    }
+                },
+                "Traffic Source":
+                {
+                    "Direct":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    },
+                    "Search":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    },
+                    "Paid search":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    },
+                    "Social":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    },
+                    "Affiliate":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    },
+                    "Email":
+                    {
+                        "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                        "value": ["average", "custom value"]
+                    }
+                },
+                "Devices": ["PC", "Smartphone", "Tablet"]
+            },
+            "Tags": ["Tag_1", "Tag_2", "Tag_3"],
+            "Offers": ["Offer_1", "Offer_2", "Offer_3"],
+            "Carts": ["Cart_1", "Cart_2", "Cart_3"],
+            "Identification":             {
+                "CRM yesno":
+                {
+                    "operator": ["is", "is not"],
+                    "Identified": ["CRM", "Custom", "Custom or CRM"]
+                },
+                "CRM Indentified Date":
+                {
+                    "is": ["after", "after or on", "on", "not on", "before or on", "before", "between"],
+                    "DT": "DT"
+                }
+            },
+            "Quality_Profile": {
+                "Quality": ["is", "is not"],
+                "Active": ["is", "is not"]
+            },
+            "Do_Not_Track": 0,
+            "CRM (Profile)": [
+            {
+                "MASTER": [
+                {
+                    "CUSTOMER_NUMBER": "123456789",
+                    "VEGETARIAN": 0,
+                    "GENDER": "M",
+                    "MAIL": "test@test.com",
+                    "MOBILE_NUMBER": "07581434666",
+                    "LANG": "EN"
+                }]
+            }]
+        },
+        "Session":
+        {
+            "Webmetrics":             {
+                "Engagement":
+                {
+                    "Total time":
+                    {
+                        "In this session ":
+                        {
+                            "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                            "Time": 2345
+                        }
+                    },
+                    "Session":
+                    {
+                        "Session started":
+                        {
+                            "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                            "Time": "DT"
+                        }
+                    },
+                    "Is leaving site":
+                    {
+                        "leaving site": ["true", "false"],
+                        "Consent": true
+                    },
+                    "Is inactive after 30s":
+                    {
+                        "inactive": ["true", "false"],
+                        "Consent": true
+                    }
+
+                },
+                "Traffic Source": {
+                    "source": ["Direct", "Search", "Paid search", "Social", "Affiliate", "Email"],
+                    "Consent": true
+                },
+                "Devices": {
+                    "is using": ["PC", "Smartphone", "Tablet"],
+                    "Consent": true
+                }
+                    
+            },            
+            "Tags": {
+            "Tag one":
+            {
+                "Value":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["is", "is not"],
+                    "Options": ["Top tag value", "first hit on this tag", "last ten hits on this tag", "empty"]
+                },
+                "Score":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                    "value": ["average", "custom value"]
+                },
+                "Diff values":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Num": 234
+                },
+                "Current value":
+                {
+                    "Operator": ["Contains", "Does not contain", "Is  Equal to", "Not equal to", "is empty", "is not empty", "starts with", "ends with"],
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Consent": true
+                },
+                "Last hit":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "during this visit": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Time": "DT"
+                }
+            },
+            "Tag two":
+            {
+                "Value":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["is", "is not"],
+                    "Options": ["Top tag value", "first hit on this tag", "last ten hits on this tag", "empty"]
+                },
+                "Score":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                    "value": ["average", "custom value"]
+                },
+                "Diff values":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Num": 234
+                },
+                "Current value":
+                {
+                    "Operator": ["Contains", "Does not contain", "Is  Equal to", "Not equal to", "is empty", "is not empty", "starts with", "ends with"],
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Consent": true
+                },
+                "Last hit":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "during this visit": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Time": "DT"
+                }
+            },
+            "Tag three":
+            {
+                "Value":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["is", "is not"],
+                    "Options": ["Top tag value", "first hit on this tag", "last ten hits on this tag", "empty"]
+                },
+                "Score":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "in range"],
+                    "value": ["average", "custom value"]
+                },
+                "Diff values":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Num": 234
+                },
+                "Current value":
+                {
+                    "Operator": ["Contains", "Does not contain", "Is  Equal to", "Not equal to", "is empty", "is not empty", "starts with", "ends with"],
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "Consent": true
+                },
+                "Last hit":
+                {
+                    "Tag values": ["Val1 ", "Val 2", "Val 3"],
+                    "during this visit": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                    "Time": "DT"
+                }
+            }
+        },
+            "URL": {
+            "Contains":
+            {
+                "Operator": ["Contains", "Does not contain"],
+                "Consent": true
+            },
+            "Parameter":
+            {
+                "Param name": "My_param",
+                "Operator": ["Contains", "Does not contain", "Is  Equal to", "Not equal to", "is empty", "is not empty", "starts with", "ends with"],
+                "Value": "My_Val",
+                "Consent": true
+            },
+            "Numeric Parameter":
+            {
+                "Param name": "My_Num",
+                "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "is empty", "is not empty"],
+                "Value": 789,
+                "Consent": true
+            }
+
+        },
+            "Carts": {
+            "Cart one":
+            {
+                "Abandoned":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "abandoned Cart one cart in this session"
+                },
+                "Changed":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "changed cart Cart one cart in this session"
+                },
+                "Product":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "added product": ["Product 1", "Product 2", "Product 2"],
+                    "final text": "to cart Cart one this session"
+                },
+                "Articles":
+                {
+                    "Amount of": ["Articles", "£££££"],
+                    "text 2": "added to the cart Cart 1 in this session",
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "is empty", "is not empty"],
+                    "Value": 0
+                }
+            },
+            "Cart two":
+            {
+                "Abandoned":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "abandoned Cart two cart in this session"
+                },
+                "Changed":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "changed cart Cart two cart in this session"
+                },
+                "Product":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "added product": ["Product 1", "Product 2", "Product 2"],
+                    "final text": "to cart Cart two this session"
+                },
+                "Articles":
+                {
+                    "Amount of": ["Articles", "£££££"],
+                    "text 2": "added to the cart Cart two in this session",
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "is empty", "is not empty"],
+                    "Value": 0
+                }
+            },
+            "Cart three":
+            {
+                "Abandoned":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "abandoned Cart three cart in this session"
+                },
+                "Changed":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "Condition": "changed cart Cart three cart in this session"
+                },
+                "Product":
+                {
+                    "Operator": ["Has", "Has not"],
+                    "added product": ["Product 1", "Product 2", "Product 2"],
+                    "final text": "to cart Cart three this session"
+                },
+                "Articles":
+                {
+                    "Amount of": ["Articles", "£££££"],
+                    "text 2": "added to the cart Cart three in this session",
+                    "Operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between", "is empty", "is not empty"],
+                    "Value": 0
+                }
+            }
+        }
+        },
+        "Reporting Segment":
+        {
+        "Segment_1": {
+            "in segment": ["true","false"],
+            "last in" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            },          
+            "last out" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            }
+        },
+        "Segment_2": {
+            "in segment": ["true","false"],
+            "last in" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            },          
+            "last out" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            }
+
+        },
+        "Segment_3": {
+            "in segment": ["true","false"],
+            "last in" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            },          
+            "last out" : {
+                "operator": ["more than", "more than or equal to", "equal to", "not equal to", "less than or equal to", "less than", "between"],
+                "time": "DT"
+            }
+
+        }
+    }
+    } 
+} 
