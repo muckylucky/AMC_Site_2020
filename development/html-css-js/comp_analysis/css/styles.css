@@ -25,6 +25,7 @@
  font-weight:400;
  font-style:normal
 }
+/* [%[MASTER.NAME]%] */
 * {
  box-sizing:border-box
 }
@@ -460,13 +461,13 @@ section h3 {
  padding-right:1em
 }
 .benefits .ben {
- width:26.5rem;
+ width:48%;
 margin-right: 2rem;
  margin-bottom:2em;
  min-height:260px;
  display: inline-table;
 }
-.benefits .ben:nth-child(even) {
+.benefits .ben:nth-child(odd) {
  margin-right:0;
 }
 .benefit_icon {
@@ -529,11 +530,16 @@ margin-right: 2rem;
  vertical-align:top
 }
 .image-gallery .filter {
- width:50%;
- float:left
+ width:48%;
+margin-right: 2rem;
+ margin-bottom:2em;
+ min-height:260px;
+ display: inline-table;
 }
-.image-gallery .filter:nth-child(odd) {
- padding-right:1em
+
+
+.image-gallery .filter:nth-child(even) {
+ margin-right:0
 }
 @media screen and (max-width:55em) {
  html {
