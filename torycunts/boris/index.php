@@ -11,8 +11,17 @@
 <script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="../js/main.js"></script>
 <style>
-
-
+    img#main_bg {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover; 
+      z-index:1;
+      position: absolute;
+    }
+    body {
+        background-image:url(/img/union_jack.png);
+    }
 </style>
 </head>
 <body>
@@ -44,10 +53,13 @@
             <img src="../img/Boris_Johnson_official_portrait_(cropped).jpg" alt="Tory Cunt: Boris" width="300" style="" class="portrait">
             <h2>Who</h2>
             <p>Fuck-off with calling him Boris. His given name is: Alexander Boris de Pfeffel Johnson.<br>
-            Leader of the Conser vative party AKA the Supreme Cunt.</p>
+            Leader of the Conservative party AKA the Supreme Cunt.</p>
             <h2>What</h2>
             <p>Where to fucking start?</p>
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Conservative MPs, this is what you’d be voting for<br><br> <a href="https://t.co/fXvHVH05TW">pic.twitter.com/fXvHVH05TW</a></p>&mdash; Led By Donkeys (@ByDonkeys) <a href="https://twitter.com/ByDonkeys/status/1583360491032047616?ref_src=twsrc%5Etfw">October 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe3A_EGNBYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <caption>Content by: <a href="https://www.ledbydonkeys.org/">Led By Donkeys</a></caption>
             <ul>
                 <li>He "likened the confiscation of handguns in the wake of the Dunblane massacre to “nanny confiscating toys” like model train sets and stamp collections, it has emerged."
                 <a href="https://www.heraldscotland.com/news/18086052.boris-johnson-compared-gun-crackdown-dunblane-nanny-confiscating-toys/">Read the Herald article on that shit</a></li>
