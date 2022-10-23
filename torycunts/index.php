@@ -12,14 +12,16 @@
 <script type="text/javascript" src="js/main.js"></script>
 <style>
     img#main_bg {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover; 
-  z-index:1;
-  position: absolute;
-}
-body {background-image:url(/img/union_jack.png);}
+      display: block;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover; 
+      z-index:1;
+      position: absolute;
+    }
+    body {
+        background-image:url(/img/union_jack.png);
+    }
 </style>
 </head>
 <body>

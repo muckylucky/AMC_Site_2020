@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="ATAB" />
-<title>[% Cunts: All of them %]</title>
+<title>[% Alexander Boris de Pfeffel Johnson, the cunt %]</title>
 <link rel="stylesheet" href="../css/main.css" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
@@ -47,6 +47,7 @@
             Leader of the Conser vative party AKA the Supreme Cunt.</p>
             <h2>What</h2>
             <p>Where to fucking start?</p>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Conservative MPs, this is what you’d be voting for<br><br> <a href="https://t.co/fXvHVH05TW">pic.twitter.com/fXvHVH05TW</a></p>&mdash; Led By Donkeys (@ByDonkeys) <a href="https://twitter.com/ByDonkeys/status/1583360491032047616?ref_src=twsrc%5Etfw">October 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <ul>
                 <li>He "likened the confiscation of handguns in the wake of the Dunblane massacre to “nanny confiscating toys” like model train sets and stamp collections, it has emerged."
                 <a href="https://www.heraldscotland.com/news/18086052.boris-johnson-compared-gun-crackdown-dunblane-nanny-confiscating-toys/">Read the Herald article on that shit</a></li>
