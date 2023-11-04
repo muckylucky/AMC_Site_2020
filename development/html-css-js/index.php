@@ -36,7 +36,7 @@
     </div>
     <div class="header-contact">
             <ul>
-                <li>Website: <a href="http://www.amc21.co.uk">amc21.co.uk</a></li>
+             
                 <li><span class="hide-phone">Telephone: 07581 434162</span><span class="show-phone">Telephone: <a href="tel:07581434162">07581 434162</a></span></li>
                 <li>Email: <a href="mailto:andy@amc21.co.uk">andy@amc21.co.uk</a></li>
                 <li style="padding-left:30px;background:url(/online-cv/img/social-linkedin.svg) 0 4px no-repeat;background-size:24px"><a href="https://www.linkedin.com/profile/view?id=AAMAAAE3JtcBUgFl9c9hQly5KK_tEDo6WYz0YME&trk=hp-identity-name">Linkedin</a></li>
