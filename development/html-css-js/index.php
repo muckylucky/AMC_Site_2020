@@ -1,189 +1,365 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
 
-
-    <meta name='Keywords'  content='web design, mobile design, app design, touch design, london, freelance'/>
-	<meta name='Description' content='Web and mobile designer and developer based in london - available for freelance projects.'/>
-
-    <title>Andrew McCluckie -- [ London based digital designer for web, mobile and touch ]</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-    <script type="text/javascript" src="scripts/jquery.js"></script>
-    <script type="text/javascript" src="scripts/main.js"></script>
-    <script type="text/javascript" src="scripts/content_loader_new.js"></script>
-	<style>
-		/*For in progress overlay*/
-		@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic,400italic);
-		.overlay {
-			background:rgba(0,0,0,0.5);
-			background-image:url(images/diaglines-bw.gif);
-			position:absolute;
-			width:100%;
-			height:100%;
-			top:0;
-			left:0;
-			bottom:0;
-			right:0;
-			z-index:10000;
-			font-family: Lato, Helvetica, Arial, sans-serif;
-			opacity:0.75;
-			-webkit-transform: translateZ(0);
-
-		}
-		.message-wrapper {
-			position:absolute;
-			width:100%;
-			height:100%;
-			top:0;
-			left:0;
-			bottom:0;
-			right:0;
-			z-index:10001;
-		}
-		
-		.overlay-message {
-			  position:relative;
-			  top:20%;
-			  width:400px;
-			  margin:0 auto;
-			  padding:5em;
-			  border:4px solid #000;
-			  background:#fff;
-			  
-		  }
-		  	.overlay-message p, .overlay-message a, .overlay-message h2 {
-				font-family: Lato, Helvetica, Arial, sans-serif;
-				
-			}
-			.overlay-message p {
-				font-size:16px;	
-			}
-
-			.primary-button {
-				border: 2px solid #f8116a;
-				color: #f8116a;
-				opacity: 0.5;
-				padding: 0.5rem 1rem;
-				transition: background 0.5s ease 0s;
-			}
-			.primary-button:hover {
-				color:#fff;
-				opacity:1;
-				text-decoration:none;
-				background:#f8116a;
-			}
-</style>
-<!--[if lte IE 7]>
-<link rel="stylesheet" type="text/css" href="ie7.css" />
-<![endif]-->
-<!--[if lte IE 6]>
-<link rel="stylesheet" type="text/css" href="ie7.css" />
-<![endif]-->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="User Experience Product Designer based in Edinburgh." />
+<meta name="keywords" content="Product designer, ux designer, user experience designer, edinburgh, plg, product led growth, SaaS, marketing automation">
+<title>[% Andrew McCluckie %]</title>
+<link rel="stylesheet" href="/online-cv/css/main.css" />
+<script type="text/javascript" src="/online-cv/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/online-cv/js/main.js"></script>
+<?php  include_once("includes/analyticstracking_TagManager.php");?>
 </head>
-
 <body>
-	<!-- Google Tag Manager -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMG3KVLFG4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	
 
-  gtag('config', 'G-LMG3KVLFG4');
-</script>
-<!-- End Google Tag Manager -->    
-<div class="overlay">
 
+<div class="header mobile">
+	<div class="header-logo">
+            <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Senior Product/UX Designer" width="200px">
+            <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
+            <h2>Senior Product Designer</h2>
+            <h4><small>Online since 1698</small></h4>
     </div>
-    <div class="message-wrapper">
-    	<div class="overlay-message">
-        	<h2>Andrew McCluckie&rsquo;s portfolio site is currently being updated</h2>
-            <p>It&rsquo;s been a while, 2011 in fact, since it had a major design release. Whilst work is being carried-out you can either:</p>
-            <a href="/online-cv/" class="primary-button">View my online CV</a>
-            <br>
-            <br>
-            <p>or</p>
-            <a href="#" id="overlay-close" class="primary-button">View the old site</a>
-        </div>
-    </div>
-       	<div id="wrapper" class="top_stuff">
-    	<div id="about">
-            <ul id="about_list">
-                <li><a href="http://www.linkedin.com/profile/view?id=20391639&trk=tab_pro" title="Linkedin profile." class="linkedIn">Linkedin profile</a></li>
-                <li><a href="http://www.flickr.com/photos/mccluckie" title="Flickr profile." class="flick">Flickr profile</a></li>
-            </ul>        	
-            <p>Hi, I'm Andrew McCluckie and I've been a designer for a good few years and started specialising in web design four years ago.
-               After honing my skills hand-coding html &amp; css and learning to deal with the nightmare of IE6 I moved onto learning jQuery.
-               Over the past two years I have been learning more jQuery as well as raw javascript and PHP.</p>
-            <p>Recently what's been fascinating me is development for mobile/touch devises and adaptive layouts using media queries. Earlier this year 
-               I built my first native Android app using Phonegap and converted a previous site to become device independant.</p>
-			<div class="clear"></div>
-            <a href="#about" class="top_close">Close</a> 
-        </div>
-    	<div id="contact" class="top_stuff">
-            <h2>Contact form is currently offline.</h2>
-            <p><a href="#" id="email_link">andy</a></p>
-
-            <a href="#contact" class="top_close">Close</a> 
-		</div>
-
-        <div id="nav_left">
-        	<a href="home.php"><img src="images/logo_header.png" alt="Logo of Andrew McCluckie" width="160" height="65" id="logo_header" /></a>
-        	<ul>
-            	<li><a href="web.php">Web and mobile</a></li>
-            	<li><a href="print.php">Print</a></li>
-            	<li><a href="identity.php">Identity</a></li>
-            	<li><a href="3d.php">3D</a></li>
-            	<li><a href="photography/photography.php">Photography</a></li>
-            </ul>
-            <p id="copyright_notice">&copy; <span id="copy_year">2011</span> Andrew M<sup>c</sup>Cluckie</p>
-        </div><!--End nav_left-->
-        
-      <div id="header">
-        	<ul id="header_links">
-            	<li><a href="#about" id="about_button">About</a></li>
-            	<li><a href="#contact" id="contact_button">Contact</a></li>
-            	<!--<li><a href="includes/admin.php" id="admin_button">Admin</a></li>-->
-            </ul>
-      </div>  <!--End header-->
-
-      <div id="content">
-
-      </div><!--End Content-->
+</div>
     
-    	<div class="clearfix"></div>
-        <div id="footer">
-            <div id="footer_inner">
-                <div class="footerCol">
-                    <h3>Follow me!</h3>
-                    <ul>
-                        <li><a href="http://www.linkedin.com/profile/view?id=20391639&trk=tab_pro" title="Linkedin profile." class="linkedIn">Linkedin profile</a></li>
-                        <li><a href="http://www.flickr.com/photos/mccluckie" title="Flickr profile." class="flick">Flickr profile</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footerCol">
-					<h3>Skills</h3>
-                    <ul>
-                    	<li>UX/UI</li>
-                    	<li>Javascript</li>
-                    	<li>jQuery/jQuery mobile/jqtouch</li>
-                    	<li>PHP</li>
-                    	<li>MySQL</li>
-                    	<li>XML</li>
-                    	<li>AJAX</li>                
-                	</ul>
-                </div>
+<div class="wrapper">
+	<div class="header">
+    	<div class="header-logo">
+            <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Senior Product/UX Designer" width="200px">
+            <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
+            <h2>Senior Product Designer</h2>
+            <h4><small>Online since 1698</small></h4>
+        </div>
+    </div>
+    <div class="header-contact">
+            <ul>
+                <li>Website: <a href="http://www.amc21.co.uk">amc21.co.uk</a></li>
+                <li><span class="hide-phone">Telephone: 07581 434162</span><span class="show-phone">Telephone: <a href="tel:07581434162">07581 434162</a></span></li>
+                <li>Email: <a href="mailto:andy@amc21.co.uk">andy@amc21.co.uk</a></li>
+                <li style="padding-left:30px;background:url(/online-cv/img/social-linkedin.svg) 0 4px no-repeat;background-size:24px"><a href="https://www.linkedin.com/profile/view?id=AAMAAAE3JtcBUgFl9c9hQly5KK_tEDo6WYz0YME&trk=hp-identity-name">Linkedin</a></li>
+            </ul>
+    </div>
+<!--
+  <header class="tablet">
+        <hgroup class="header-logo">
+            <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
+            <h2>Web design and UX/UI</h2>
+        </hgroup>
+        <hgroup class="header-contact">
+            <ul>
+                <li>Website: <a href="http://www.amc21.co.uk">amc21.co.uk</a></li>
+                <li><span class="hide-phone">Telephone: 07581 434162</span><span class="show-phone">Telephone: <a href="tel:07581434162">07581 434162</a></span></li>
+                <li>Email: <a href="mailto:andy@amc21.co.uk">andy@amc21.co.uk</a></li>
+            </ul>
+        </hgroup>
+    </header>
+    -->
+    
+    
+    <article class="clearfix" id="main">
 
-                                
-            </div>
-        </div><!--End footer-->
+        <div class="logos_employment">
+            <ul class="list_unstyled">
+                <li><img src="/img/employment_logos/Infobip_Logo.svg" alt="Logo: Infobip" width="200px"></li>
+                <li><img src="/img/employment_logos/logo-smc_0.png" alt="Logo: Selligent Marketing Cloud" width="200px"></li>
+                <li><img src="/img/employment_logos/vitality-logo.svg" alt="Logo: Vitality" width="160px"></li>
+                <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
+            </ul>
+        </div>
+
+        <article class="article-section" id="statement">
+            <h2>Statement</h2>
+          <p><?php include_once("/includes/country_greeting.php") ?></p>
+            <p>I am an outcome driven UX Designer with a passion for the way users interact with our SaaS software.<br /> 
+            With many years working in Design and Development roles I have a broad range of experience in delivering digital solutions that exceed user expectations and are aesthetically pleasing.<br />
+            My experience as a front-end developer means I am familiar with the implementation of designs and can communicate effectively with engineers deliver projects in a fast paced Agile environment.</p>
+			<p>At Infobip I work in the Growth design team to test and improve existing features and design new ones for our Marketing Cloud software.</p>
+            
+
+            <p>I also own my family name&rsquo;s dotcom address :)<br /><a href="http://mccluckie.com/index.php" target="blank">McCluckie.com</a></p>
+        </article>
+        <!--END STATEMENT-->
         
-	</div><!-- END WRAPPER -->
-<div id="mask"></div>
+        <article class="article-section-full-width clearfix" > 
+			<!--<section class="skillset-column latest-projects">
+                <ul>
+                    <h3>Recent projects</h3>
+                    <li>
+                        <a href="http://simonwinstanley.com/">Simon Winstanley Architects</a>
+                    </li>
+                    <li>
+                        <a href="http://amc21.co.uk/spending_calculator/login.php">Spending calculator</a>
+                    </li>
+                    <li>
+                        <a href="pruprotect.co.uk/">PruProtect / VitalityLife</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pruprotect.co.uk/adviser/support/literature/">Literature and tools</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">Consumer quote and apply</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pruprotect.co.uk/iht-calculator/">Inheritence tax calculator</a>
+                    </li>
+                </ul>
+			</section>
+                     -->   
+            <section class="skillset-column fullWidth">
+                <ul id="webskills" class="">
+                   	<h3>UI / UX</h3>
+                     <li>Figma</li>
+                     <li>Miro</li>
+                     <li>Axure</li>
+                   	 <li>Sketch</li>
+                     <li>Balsamiq Mockups</li>
+                   	 <li>Research</li>
+                   	 <li>Extensive experience with moderated user testing using digital and paper prototypes</li>
+                   	 <li>Google Analytics</li>
+                   	 <li>Amplitude</li>
+                     <li>Gainsight PX</li>
+                   	 <li>UserTesting.com</li>
+                </ul>
+			</section>
+            <section class="skillset-column">
+                <ul id="webskills">
+                   	<h3>Web skillset</h3>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>PHP / MySQL</li>
+                    <li>XML</li>
+                    <li>AJAX</li>
+                </ul>
+			</section>
+                        
+
+            <section class="skillset-column">
+                <ul id="webskills">
+                   	<h3>General design</h3>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Dreamweaver</li>
+                    <li>InDesign</li>
+                </ul>
+                <ul class="software-icons">
+                    <li><img src="/online-cv/img/Figma_Logo.svg" width="46" height="46" alt="Figma"></li>
+                    <li><img src="/online-cv/img/axure_icon_125.svg" width="46" height="46" alt="Axure"></li>
+                    <li><img src="/online-cv/img/Sketch_logo_frame.svg" width="46" height="46" alt="Sketch"></li>
+                    <li><img src="/online-cv/img/adobe-icon-dreamweaver.png" width="46" height="46" alt="Adobe Dreamweaver"></li>
+                	<li><img src="/online-cv/img/adobe-icon-photoshop.png" width="46" height="46" alt="Adobe Photoshop"></li>
+                	<li><img src="/online-cv/img/adobe-icon-illustrator.png" width="46" height="46" alt="Adobe Illustrator"></li>
+                	<li><img src="/online-cv/img/adobe-icon-indesign.png" width="46" height="46" alt="Adobe InDesign"></li>
+                </ul>
+			</section>
+            
+        </article>
+        <!--END SKILLSET-->
+        
+        <article class="article-section" id="work-history">
+            
+        	<h2>Work history</h2>
+            <section class="job-entry">
+                <time>January 2022-Present</time>
+                <section class="job-project">
+                    <h1>Senior Product Designer<small>&mdash;<a href="https://www.infobip.com/">Infobip</a> </small></h1>
+                    <p>Currently I work as part of the Growth and Self-Service design team at Infobip. Our primary concerns are onboarding Self-Serve signups, engaging with their business cases/needs and converting them from free trial to paying users.<br>
+                    We work closely with Marketing, Product Led Growth and of course engineering and product management.
+                   The Growth design team is part of the larger Product Design team of some 35 designers at Infobip.</p>
+                   <p>Try the <a href="https://infobip.com/signup">free trial</a> (and recently redesigned sign-up process) for yourself and leave some feedback!</p>
+                  <a href="https://www.infobip.com/" class="primary-button-sell" style="background:#ff5a00 !important">Visit the site</a>
+                </section>            
+            </section>
+
+            <section class="job-entry">
+                <time>August 2019-December 2021</time>
+                <section class="job-project">
+                    <h1>Product Designer<small>&mdash;<a href="https://www.selligent.com/">Selligent Marketing Cloud</a> </small></h1>
+                    <p>Working as part of the Product Design Team we continually develop and improve the Selligent Marketing Cloud marketing execution platform according to business and client needs.<br>
+                    We are responsible for taking briefs from services, feature requests from customers and identifying where UX improvements can be brought according to our own analysis. We work with engineering in 6 week sprints to continually develop and deploy new features.</p>
+                    <p>A comprehensive list of clients using SMC can be <a href="https://www.selligent.com/industries">found here</a>.</p>
+                  <a href="https://www.selligent.com/" class="primary-button-sell">Visit the site</a>
+                </section>            
+            </section>
+
+            <section class="job-entry">
+                <time>October 2016-July 2019</time>
+                
+      
+                <section>
+                    <h1>Campaign and web developer <small>&mdash;<a href="https://www.selligent.com/">Selligent</a> </small></h1>
+                    <p>I used to build bomb-proof responsive emails and email templates, set-up complex user journeys using Selligent Marketing Cloud and Campaign software. Think things like automated email campaigns, preference centers, abandoned carts and online surveys and subscription services. I had the opportunity to onboard and work with major clients such as Tesco, Tesco Mobile, Games Workshop, Ti Media, Future Publishing, Odeon cinemas...</p>
+                </section>            
+            </section>
+            <section class="job-entry">
+                <time>March 2009-September 2016</time>
+
+                <section>
+                    <h1>Online designer <small>&mdash;Vitality (formerly PruHealth and PruProtect)</small></h1>
+                    <p>Responsible for maintaining and developing the PruProtect website and evolving the brand online. Directs work done by external agencies as the digital brand guardian. Delivers
+    solutions to marketing in a very fast-paced environment to tight deadlines whilst managing the expectations of internal stakeholders. Design and production of marketing emails and also Flash based banners.</p>
+                </section>
+
+                    <h2>Key projects</h2>
+                    <section class="job-project">
+                        <h3><a href="https://www.vitality.co.uk/">PruProtect website</a></h3> 
+                        <p>Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
+
+                        <div class="project-thumbnail">
+                    		<a href="#">
+                            	<img src="/online-cv/img/projects/cv-project-pruprotect.gif" width="1334" height="1718" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+                                   
+                    <section class="job-project">
+                        <h3><a href="../projects/iht_calculator/">Inheritance tax calculator</a></h3>
+                        <p>This is PruProtects&rsquo; first foray into the &lsquo;high net worth&rsquo; market and is a disruptive tool aimed to raise the awareness of the need for financial protection. Executed the design, front-end build, calculation engine and integration with Google Graphs API working in conjunction with the actuarial team. Utilises jQuery, javascript, regex for input sanitisation and masking and the Google Graphs API to output the results visually.</p> 
+                        <a href="../projects/iht_calculator/" class="primary-button">Visit the Inheritance tax calculator</a>
+                        <div class="project-thumbnail">
+                            <a href="../projects/iht_calculator/">
+                                <img src="/online-cv/img/projects/cv-project-IHT-calc.png" width="834" height="1174" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+                                        
+                    <section class="job-project">
+    					<h3><a href="/online-cv/projects/proj-vitality-quick-quote.php">Quick quote</a></h3>
+                        <p>Delivered the Design and build of this quote system in an extremely short time &ndash; frame. Worked on UX/UI through final designs and complete front-end build. The quote is fully responsive and built upon the latest version of Bootstrap.</p>
+                        <p>Current rate of quote completions throught the funnel is <strong>45%</strong>.</p>
+                        <a href="/online-cv/projects/proj-vitality-quick-quote.php" class="primary-button">Read more</a>
+                        <a href="https://www.vitality.co.uk/health-insurance/quote" class="secondary-button">Visit the site</a> 
+
+                        <div class="project-thumbnail">
+                    		<a href="https://www.vitality.co.uk/health-insurance/quote">
+                            	<img src="/online-cv/img/projects/cv-project-q-quote.gif" width="640" height="965" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>                
+                                    
+                    <section class="job-project">
+    					<h3><a href="/online-cv/projects/proj-spending-calc.php">Spending calculator</a></h3>
+                        <p>This is a personal project I started with the aim of tracking my monthly spending since the last pay day.</p>
+                        <a href="/online-cv/projects/proj-spending-calc.php" class="primary-button">Read more</a>
+
+                        <div class="project-thumbnail">
+                    		<a href="/online-cv/projects/proj-spending-calc.php">
+                            	<img src="/online-cv/img/projects/cv-project-spending-calc.gif" width="400" height="597" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>                
+                    
+                    <section class="job-project">
+    					<h3><a href="http://vitality.co.uk/">Vitality.co.uk</a></h3>
+                        <p>Launched in January this year, this is the new online presence for the Vitality brand. The first of our sites being developed as responsive. Implemented A / B testing strategies utilising <a href="http://qubitproducts.com/">Qubit</a>. I am lead designer for this site and responsible for design, UX/UI and front-end code.</p>
+                        <a href="/online-cv/projects/proj-vitality.php" class="primary-button">Read more</a>
+                        <a href="http://vitality.co.uk/" class="secondary-button">Visit Vitality.co.uk</a> 
+                        <div class="project-thumbnail">
+                    		<a href="http://vitality.co.uk/">
+                            	<img src="/online-cv/img/projects/cv-project-vitality.png" width="1219" height="1287" alt="Project preview">
+                            </a>
+                        </div>
+    				</section>                
+                                   
+                    <section class="job-project">
+    					<h3><a href="http://www.pruhealth.co.uk/">PruHealth.co.uk</a></h3>
+                        <p>I am responsible for the design of the main landing page for both customers and advisers. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
+                        <a href="../projects/proj-vitalityHealth.php" class="primary-button">Read more</a>
+                        <a href="http://www.pruhealth.co.uk/" class="secondary-button">Visit PruHealth.co.uk</a> 
+                        <div class="project-thumbnail">
+                    		<a href="#">
+                            	<img src="/online-cv/img/projects/cv-project-PruHealth.png" width="600" height="831" alt="Project preview">
+                            </a>
+                        </div>
+    				</section>                
+                       
+                    <section class="job-project">
+                        <h3><a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/">Literature and tools</a></h3>
+                        <p>Self-initiated project. Developed jQuery, XML and AJAX based literature browsing catalogue to enable advisers to easily browse full range of over 200 items. 100% dynamic – features include advanced filtering, live-search and easy content management interface to enable catalogue updating by marketing team. Integrated Google Analytics to provide real-time MI on downloads of all documents (pdfs/docs/xls/online tools). Implemented XML work-around as database driven solution was unsuitable.</p>
+                        <a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/" class="primary-button">Visit Literature and tools</a>
+                        <div class="project-thumbnail">
+                            <a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/">
+                                <img src="/online-cv/img/projects/cv-project-LandT.png" width="1194" height="1028" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="job-project">
+    					<h3><a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">Direct to consumer quote</a></h3>
+                        <p>Another first for PruProtect – this marks the beginning of the push into the D2C market. I was involved in all aspects, from wireframing, UI/UX to the final build. </p>
+                        <a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/" class="primary-button">Visit D2C quote</a>
+                        <div class="project-thumbnail">
+                    		<a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">
+                            	<img src="/online-cv/img/projects/cv-project-D2C-quote.png" width="1223" height="1277" alt="Project preview">
+                            </a>
+                        </div>
+    				</section>
+                     
+                    <section class="job-project">
+                        <h3>Quote and Apply</h3> 
+                        <p>Full product lifecycle from user journey mapping, through wireframing and UX testing to final design and front-end build. Resulted in a system that is 20% quicker to produce a quote and also improved straight-through application rates of +50%.
+        Designed and built entire PruProtect website. Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality.</p>
+        				<a href="/online-cv/projects/proj-quote-apply.php" class="primary-button">Read more</a>
+                        <div class="project-thumbnail">
+                    		<a href="#">
+                            	<img src="/online-cv/img/projects/cv-project-quote-apply.gif" width="960" height="937" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+<!--
+                    <section class="job-project">
+                        <h3><a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">MyPlan app</a></h3> 
+                        <p>Led the MyPlan App project; creating user-journeys, wireframes, mobile UI designs and specifications as well as managing external development agency. The app enables advisers to drive business by helping them outline PruProtects&rsquo; core propositions with clients.</p>
+                        <div class="project-thumbnail">
+                    		<a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">
+                            	<img src="/online-cv/img/projects/cv-project-myPlan.jpg" width="480" height="360" alt="Project preview">
+                            </a>
+                        </div>
+                    </section>
+-->
+
+			</section>
+            <!--END VITALITY-->
+            <section class="job-entry">
+        		<time>March 2008-March 2009</time>
+   	      <h1>Graphic designer &mdash; &nbsp;<span class="highlight travelbag">Travelbag</span></h1>
+                <p>Carried-out duties in the design studio for both digital and print.</p>
+                <ul>
+                	<li>Responsible for front-end build of new website to hand-off to developers</li>
+					<li>Creation of weekly promotional emails and landing pages</li>
+					<li>Design and build of promotional microsites</li>
+					<li>Design of flash banners</li>
+					<li>Design of various direct marketing print pieces</li>
+					<li>Layouts for monthly Travelbag magazine </li>
+					<li>Layout and illustration for annual print brochures </li>
+                </ul>
+                    <a href="http://www.travelbag.co.uk/" class="primary-button">Visit Travelbag</a>
+			</section>
+
+        </article>
+        <!--END WORK HISTORY-->
+        
+    </article>
+    
+ 
+    <div class="footer">
+    	<p id="copyright_notice"><sup>&copy;</sup> <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
+    </div>
+</div>
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "nm8ka25p"
+  };
+</script>
+
+<script>
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/nm8ka25p'
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/nm8ka25p';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
 </body>
 </html>
