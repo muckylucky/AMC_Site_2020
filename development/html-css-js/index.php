@@ -76,10 +76,14 @@
             <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams.</p> 
             <p>My specialisation is SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>.</p>
             <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Futrue publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products adnd equipped me well in my transition to Product Design.</p>
+
             <h3>Strengths</h3>
-            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. AT the end of my time their the we were conducting <em>user testing weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. I once even conducted testing with paper prototypes remotely during the pandemix lockdown period.</p>
+            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. AT the end of my time their the we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. I once even conducted testing with paper prototypes remotely during the pandemic lockdown period. Feel free to ask me about that one!</p>
+
 			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
+
             <p><strong>Inclusivity</strong>. Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.</p>
+
             <p><strong><a href="https://miro.com/">Miro</a> hero</strong>. I love a Miro board and probably spend 70% of my time there. <a href="https://www.figma.com/">Figma</a> is always the last tool used in my dessign process.</p>
             
 
