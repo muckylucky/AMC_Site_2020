@@ -37,7 +37,7 @@
     <div class="header-contact">
             <ul>
              
-                <li><span class="hide-phone">Telephone: 07581 434162</span><span class="show-phone">Telephone: <a href="tel:07581434162">07581 434162</a></span></li>
+                <li><span class="hide-phone">Telephone: +44 7581 434162</span><span class="show-phone">Telephone: <a href="tel:+447581434162">+44 7581 434162</a></span></li>
                 <li>Email: <a href="mailto:andy@amc21.co.uk">andy@amc21.co.uk</a></li>
                 <li style="padding-left:30px;background:url(/online-cv/img/social-linkedin.svg) 0 4px no-repeat;background-size:24px"><a href="https://www.linkedin.com/profile/view?id=AAMAAAE3JtcBUgFl9c9hQly5KK_tEDo6WYz0YME&trk=hp-identity-name">Linkedin</a></li>
             </ul>
@@ -73,18 +73,17 @@
         <article class="article-section" id="statement">
             <h2>Statement</h2>
           <p><?php include_once("includes/country_greeting.php") ?></p>
-            <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams.</p> 
-            <p>My specialisation is SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>.</p>
-            <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Future publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products adnd equipped me well in my transition to Product Design.</p>
+            <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams with my specialisation is SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>.</p>
+            <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Future publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products and equipped me well in my transition to Product Design.</p>
 
             <h3>Strengths</h3>
-            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. AT the end of my time their the we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. I once even conducted testing with paper prototypes remotely during the pandemic lockdown period. Feel free to ask me about that one!</p>
+            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. At the end of my time there we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. Usability weeks gave us crucial insights into our design process as well as continuous discovery and being an important piece of the client relationship process. I once even conducted testing with paper prototypes remotely during the pandemic lockdown period. Feel free to ask me about that one!</p>
 
 			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
 
             <p><strong>Inclusivity</strong>. Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.</p>
 
-            <p><strong><a href="https://miro.com/">Miro</a> hero</strong>. I love a Miro board and probably spend 70% of my time there. <a href="https://www.figma.com/">Figma</a> is always the last tool used in my dessign process.</p>
+            <p><strong><a href="https://miro.com/">Miro</a> hero</strong>. I love a Miro board and probably spend 70% of my time there. <a href="https://www.figma.com/">Figma</a> is always the last tool used in my design process.</p>
             
 
             <p>I also own my family name&rsquo;s dotcom address :)<br /><a href="http://mccluckie.com/index.php" target="blank">McCluckie.com</a></p>
@@ -190,8 +189,17 @@
                     <p>Working as part of the Product Design Team we continually develop and improve the Selligent Marketing Cloud marketing execution platform according to business and client needs.<br>
                     We are responsible for taking briefs from services, feature requests from customers and identifying where UX improvements can be brought according to our own analysis. We work with engineering in 6 week sprints to continually develop and deploy new features.</p>
                     <p>A comprehensive list of clients using SMC can be <a href="https://www.selligent.com/industries">found here</a>.</p>
+                    <h2>Key projects</h2>
+                    <ul>
+                        <li>Smart subject line</li>
+                        <li>Segment builder</li>
+                        <li>Data import, history and syncronisation</li>
+                        <li>Relative Date Time selector</li>
+                        <li>Site integration with SMC</li>
+                    </ul>  
                   <a href="https://www.selligent.com/" class="primary-button-sell">Visit the site</a>
-                </section>            
+                </section>      
+     
             </section>
 
             <section class="job-entry">
