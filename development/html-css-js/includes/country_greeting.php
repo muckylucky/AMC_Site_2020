@@ -1,9 +1,11 @@
 <?php 
-
+// echo 'Test';
 $IPADDY = $_SERVER['REMOTE_ADDR'];
 $FORWARD = $_SERVER['HTTP_X_FORWARDED_FOR'];
+/* 
 echo $IPADDY . '<br>';
 echo $FORWARD;
+*/
 
 function get_client_ip()
 {

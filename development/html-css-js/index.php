@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="User Experience Product Designer based in Edinburgh." />
-<meta name="keywords" content="Product designer, ux designer, user experience designer, edinburgh, plg, product led growth, SaaS, marketing automation">
-<title>[% Andrew McCluckie %]</title>
-<link rel="stylesheet" href="/online-cv/css/main.css" />
-<script type="text/javascript" src="/online-cv/js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="/online-cv/js/main.js"></script>
-<?php  include_once("includes/analyticstracking_TagManager.php");?>
-</head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Senior Product Designer based in Edinburgh." />
+    <meta name="keywords" content="Product designer, ux designer, user experience designer, edinburgh, plg, product led growth, SaaS, marketing automation, Infobip, Miro, Figma, Axure">
+    <title>[% Andrew McCluckie %]</title>
+    <link rel="stylesheet" href="/online-cv/css/main.css" />
+    <script type="text/javascript" src="/online-cv/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/online-cv/js/main.js"></script>
+    <?php  include_once("includes/analyticstracking_TagManager.php");?>
+    </head>
 <body>
 	
 
@@ -72,11 +72,15 @@
 
         <article class="article-section" id="statement">
             <h2>Statement</h2>
-          <p><?php include_once("/includes/country_greeting.php") ?></p>
-            <p>I am an outcome driven UX Designer with a passion for the way users interact with our SaaS software.<br /> 
-            With many years working in Design and Development roles I have a broad range of experience in delivering digital solutions that exceed user expectations and are aesthetically pleasing.<br />
-            My experience as a front-end developer means I am familiar with the implementation of designs and can communicate effectively with engineers deliver projects in a fast paced Agile environment.</p>
-			<p>At Infobip I work in the Growth design team to test and improve existing features and design new ones for our Marketing Cloud software.</p>
+          <p><?php include_once("includes/country_greeting.php") ?></p>
+            <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams.</p> 
+            <p>My specialisation is SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>.</p>
+            <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Futrue publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products adnd equipped me well in my transition to Product Design.</p>
+            <h3>Strengths</h3>
+            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. AT the end of my time their the we were conducting <em>user testing weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. I once even conducted testing with paper prototypes remotely during the pandemix lockdown period.</p>
+			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
+            <p><strong>Inclusivity</strong>. Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.</p>
+            <p><strong><a href="https://miro.com/">Miro</a> hero</strong>. I love a Miro board and probably spend 70% of my time there. <a href="https://www.figma.com/">Figma</a> is always the last tool used in my dessign process.</p>
             
 
             <p>I also own my family name&rsquo;s dotcom address :)<br /><a href="http://mccluckie.com/index.php" target="blank">McCluckie.com</a></p>
@@ -167,7 +171,7 @@
                 <time>January 2022-Present</time>
                 <section class="job-project">
                     <h1>Senior Product Designer<small>&mdash;<a href="https://www.infobip.com/">Infobip</a> </small></h1>
-                    <p>Currently I work as part of the Growth and Self-Service design team at Infobip. Our primary concerns are onboarding Self-Serve signups, engaging with their business cases/needs and converting them from free trial to paying users.<br>
+                    <p>Currently I work as part of the Marketing Automation design team at Infobip. Our primary concerns are onboarding Self-Serve signups, engaging with their business cases/needs and converting them from free trial to paying users.<br>
                     We work closely with Marketing, Product Led Growth and of course engineering and product management.
                    The Growth design team is part of the larger Product Design team of some 35 designers at Infobip.</p>
                    <p>Try the <a href="https://infobip.com/signup">free trial</a> (and recently redesigned sign-up process) for yourself and leave some feedback!</p>
