@@ -67,6 +67,7 @@
                 <li><img src="/img/employment_logos/logo-smc_0.png" alt="Logo: Selligent Marketing Cloud" width="200px"></li>
                 <li><img src="/img/employment_logos/vitality-logo.svg" alt="Logo: Vitality" width="160px"></li>
                 <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
+                <li><small>Logo collection</small></li>
             </ul>
         </div>
 
