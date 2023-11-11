@@ -118,8 +118,17 @@
 			</section>
                      -->   
             <section class="skillset-column fullWidth">
+            <section class="skillset-column">
+                <ul id="webskills">
+                    <h3>UK skills</h3>
+                    <li>User testing</li>
+                    <li>Problem framing</li>
+                    <li>User journey mapping</li>
+                    <li>Ideation workshopping</li>
+                    <li>Product led growth</li>
+                </ul>
                 <ul id="webskills" class="">
-                   	<h3>UI / UX</h3>
+                   	<h3>UI / UX software</h3>
                      <li>Figma</li>
                      <li>Miro</li>
                      <li>Axure</li>
@@ -129,13 +138,14 @@
                    	 <li>Extensive experience with moderated user testing using digital and paper prototypes</li>
                    	 <li>Google Analytics</li>
                    	 <li>Amplitude</li>
+                     <li>FullStory</li>
                      <li>Gainsight PX</li>
                    	 <li>UserTesting.com</li>
                 </ul>
 			</section>
             <section class="skillset-column">
                 <ul id="webskills">
-                   	<h3>Web skillset</h3>
+                   	<h3>Web development skillset</h3>
                     <li>HTML 5</li>
                     <li>CSS 3</li>
                     <li>Javascript</li>
@@ -147,14 +157,7 @@
 			</section>
                         
 
-            <section class="skillset-column">
-                <ul id="webskills">
-                   	<h3>General design</h3>
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>Dreamweaver</li>
-                    <li>InDesign</li>
-                </ul>
+
                 <ul class="software-icons">
                     <li><img src="/online-cv/img/Figma_Logo.svg" width="46" height="46" alt="Figma"></li>
                     <li><img src="/online-cv/img/axure_icon_125.svg" width="46" height="46" alt="Axure"></li>
