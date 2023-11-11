@@ -1,0 +1,153 @@
+CV COPY
+
+
+
+
+
+INTRO UX
+I am an outcome driven UX Designer with a passion for the way users acheive their outcomes with our SaaS software. I hate terrible user experiences.
+
+At Infobip I have worked in the Growth and the Marketing Automation teams. My specialisation is SaaS marketing automation software and Product Led Growth.
+
+My experience as a front-end developer means I am familiar with the implementation of designs and can communicate effectively with engineers deliver projects in a fast paced Agile environment.
+
+I also own my family name’s dotcom address :)
+
+
+Strengths
+User testing evangelist
+	Once did testing using paper prototypes remotely. I've done loads of user testing with clients both on and off site. 
+Miro hero
+	I love a Miro board and probably spend 70% of my time there
+Outcomes over output
+	I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.
+Inclusivity
+	Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.
+
+
+
+Deliverance
+
+//////////////////////////////////////////////////////////////////////////////
+1) Research and Discovery
+2) Synthesis
+3) Design and Layout
+4) Testing
+
+1) Problem to be solved
+	- Business goals
+	- User goals
+2) Process to find a solution
+	- Research (Discovery)
+		- Competitors (direct/indirect)
+		- Interviews 
+		- Observation
+		- Survey
+		- Analytics
+	- Insight (Analysis) https://uxmastery.com/resources/techniques/?table_filter=analysis
+		- Personas
+		- Scenarios (what a user wants to acheive)
+		- Synthesis
+			- Gather all data
+				- Observations on post-its
+			- Organise
+				- Group findings
+			- Interprate
+				- Name the groups
+				- Create insights from groups
+				- Refine the insights
+				- Success - what does it look like?
+	- Design - collaborative + iterative
+		- User flows
+		- Wireframes
+		- Prototypes
+	- Build/Production
+		- Visual design
+		- Development
+		- Testing
+
+3) Key deliverables
+4) Outcome and results
+//////////////////////////////////////////////////////////////////////////////
+
+
+[Quote and Apply]
+
+1)	Update branding and look and feel
+	Improve usability
+	Reduce time
+	Improve staight-through underwriting
+
+2)	Interviews with brokers about current system
+	Interviews with brokers to analyse competitors
+	Analytics
+	Personas - different types of brokers
+		Some office some field based some portals
+		Some still used paper and input later (save)
+	Quotes were policy based not user based
+	Confusing terms (SIC v CIC)
+	People often clicking through all tabs
+	Develop suggestion matrix
+	Develop 'plan based' system using algos
+	Split quotes for comparison
+
+3)	Requirements doc from back-end developers
+	User flows for various quotes
+	Begin sketching and wireframing
+	Daily review sessions of wireframes, analsis and improvements
+	Testing with Space01 agency
+	Creation and testing of interactive prototypes
+
+4)	Production of final photoshop designs
+	Build-out of pages locally indicating interactive developments
+	Hand-off to developers
+	Tweaking of html and css
+
+5)	Results
+
+[Spending Calc]
+
+1)	Wanted a way of keeping track of spending
+	Ability to see break-down of spend
+	See spending as %age of last pay day
+
+3)	Requirements
+	Keep track of last pay day (PHP scripting)
+	Last amount of pay
+	Input spend and ability to categorise
+	User registration and login
+
+4)	Wireframes 
+	Final designs
+	Build front end
+	Build back end
+
+[Simon Winstanly Architects]
+[D2C quote]
+
+[Literature and Tools]
+
+1)	As the literature library kept growing it was becoming increasingly difficult to present these documents online.
+	Business wanted brokers to be able to download items as opposed to ordering
+	Business wanted insight into what was being used the most
+	Users neede to be able to find what they needed
+	marketers needed a way to keep track of items and update site
+2)	Used XML to formulate catelogue of items
+	Built jQuery front-end to pull-in XML file and provide three panel drill-down
+	Filtering system for Adviser/Customer facing items
+	Live search 
+	Incorporated custom events in GA to track downloads
+
+[Deliverance App]
+
+
+
+
+Spending calc
+
+
+Write-up Bike sensor project
+
+Save multiple locations
+
+Bike gloves with indicators
