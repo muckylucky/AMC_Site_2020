@@ -73,13 +73,14 @@
         <article class="article-section" id="statement">
             <h2>Statement</h2>
           <p><?php include_once("includes/country_greeting.php") ?></p>
-            <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams with my specialisation is SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>.</p>
+            <p>I am an outcome, not output, driven Product Designer currently working at <a href="https://www.infobip.com/">Infobip</a> where I have worked in the <strong>Growth</strong> and the <strong>Marketing Automation</strong> teams with my specialisation in SaaS marketing automation software and <strong>Product Led Growth (PLG)</strong>. I enjoy solving user problems and making their working days more enjoyable and productive. For me design, all design, is about problems solving and solving problems is what drives me.</p>
+
             <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Future publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products and equipped me well in my transition to Product Design.</p>
 
             <h3>Strengths</h3>
             <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. At the end of my time there we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. Usability weeks gave us crucial insights into our design process as well as continuous discovery and being an important piece of the client relationship process. I once even conducted testing with paper prototypes remotely during the pandemic lockdown period. Feel free to ask me about that one!</p>
 
-			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
+			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive into my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
 
             <p><strong>Inclusivity</strong>. Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.</p>
 
