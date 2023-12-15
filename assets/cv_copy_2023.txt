@@ -1,30 +1,47 @@
 CV COPY
 
 
-
-
-
 INTRO UX
-I am an outcome driven UX Designer with a passion for the way users acheive their outcomes with our SaaS software. I hate terrible user experiences.
-
-At Infobip I have worked in the Growth and the Marketing Automation teams. My specialisation is SaaS marketing automation software and Product Led Growth.
-
-My experience as a front-end developer means I am familiar with the implementation of designs and can communicate effectively with engineers deliver projects in a fast paced Agile environment.
-
-I also own my family name’s dotcom address :)
+I am an email front end developer with a background in design and a passion for user experience. I build responsive emails, web pages and engaging campaigns for various clients at Selligent. 
+Working with a Technical Project Manager we take requirements from client, formulate briefs/statements of work and develop journeys (Campaigns) and assets to fulfill those requirements. 
+I am highly proficient in all modern front-end web technologies but also understand clients' data and know how to use it to build highly segmented journeys that target customers using advanced 
+personalisation techniques. Every journey starts with a problem and I’m the person that gets the client to the solution. 
 
 
-Strengths
-User testing evangelist
-	Once did testing using paper prototypes remotely. I've done loads of user testing with clients both on and off site. 
-Miro hero
-	I love a Miro board and probably spend 70% of my time there
-Outcomes over output
-	I design user journeys, not screens. I like to deep-dive my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.
-Inclusivity
-	Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.
+__Template
+	Title
+	Company
+	Dates
+	Role
+	Expertise and software (LHS under dates)
+
+//////////////////////////////////////////////////////////////////////////////
+INFOBIP
+Senior Product Designer
+Jan 2022—Present
+
+Currently I work as part of the Growth and Self-Service design team at Infobip. Our primary concerns are onboarding Self-Serve signups, engaging with their business cases/needs and converting them from free trial to paying users.
+We work closely with Marketing, Product Led Growth and of course engineering and product management. The Growth design team is part of the larger Product Design team of some 35 designers at Infobip.
+
+Try the free trial (and recently redesigned sign-up process) for yourself and leave some feedback!
+
+Conducting ideation workshops with stakeholders
+Ideation: Miro
+Design: Figma
+
+//////////////////////////////////////////////////////////////////////////////
 
 
+//////////////////////////////////////////////////////////////////////////////
+SELLIGENT
+Product Designer
+September 2019—December 2021
+
+Working as part of the Product Design Team we continually develop and improve the Selligent Marketing Cloud marketing execution platform according to business and client needs.
+We are responsible for taking briefs from services, feature requests from customers and identifying where UX improvements can be brought according to our own analysis. We work with engineering in 6 week sprints to continually develop and deploy new features.
+
+
+//////////////////////////////////////////////////////////////////////////////
 
 Deliverance
 
@@ -68,27 +85,6 @@ Deliverance
 
 3) Key deliverables
 4) Outcome and results
-
-Back in 2016 a couple of significant things happened. 
-	I ordered my first iPhone, an iPhone SE
-	I participated in the User Experience Circuit short course at General Assembly
-I was at work waiting delivery of phone
-Saw it coming
-But missed it
-Ran outside
-2,3 different DPD drivers
-Eventually got in contact
-Guy came back later and delivered it.
-I thought to myself that there must be a better way
-So this became the basis for my project for General Assembly, an app designed to improve the delivery experience.
-
-PROBLEM
-This was shortly before delivery applications started becoming commonplace. 
-Even though I could track the progress of the courier, I still missed my delivery. This could have been avoided if there was a way of communicating with the courier.
-Business need
-Clearly there are efficiencies to be made, if a parcel has to go back to the depot, delivery re-tried the next day and even potentially returned to the source then this is incurring a cost. Cost in fuel, handling and admin.
- 
-
 //////////////////////////////////////////////////////////////////////////////
 
 
