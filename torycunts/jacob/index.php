@@ -50,7 +50,7 @@
 
         <article class="article-section" id="statement">
             <h1 class="gothic">Jacob Rees-Mogg</h1>
-            <img src="../img/Jacob_Rees-Mogg.jpg" alt="Tory Cunt: Jacob Rees-Mogg" width="300" style="" class="portrait">
+            <img src="../img/Jacob_Rees-Mogg.webp" alt="Tory Cunt: Jacob Rees-Mogg" width="300" style="" class="portrait">
             <h2>Who</h2>
             <p><span class="title">GB News presenter</span> and <span class="title">Secretary of State for Business, Energy and Industrial Strategy</span></p>
             <p>Member of the <a href="https://en.wikipedia.org/wiki/European_Research_Group">European Research Group</a> (ERG) which opposes pretty much everything about the EU.</p>
@@ -58,7 +58,7 @@
             <h2>What</h2>
             <p>Dickensian cunt.</p>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOjdf_nkgTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://youtu.be/jzfaC0tMFDM?si=487PjHID07PHQhw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <caption>Content by: <a href="https://www.ledbydonkeys.org/">Led By Donkeys</a></caption>
 
