@@ -53,7 +53,7 @@
             <img src="../img/Boris_Johnson_official_portrait_(cropped).jpg" alt="Tory Cunt: Boris" width="300" style="" class="portrait">
             <h2>Who</h2>
             <p>Fuck-off with calling him Boris. His given name is: Alexander Boris de Pfeffel Johnson.<br>
-            Leader of the Conservative party AKA the Supreme Cunt.</p>
+            Former leader of the Conservative party AKA the Supreme Cunt.</p>
             <h2>What</h2>
             <p>Where to fucking start?</p>
             <div>
