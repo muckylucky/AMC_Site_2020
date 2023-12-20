@@ -69,6 +69,15 @@
                 <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
                 <li><small>Logo collection</small></li>
             </ul>
+            <ul>
+                <li><a href="/projects/proj-deliverance.php">Deliverance</a></li>
+                <li><a href="/projects/proj-quote-apply.php">Quote and Apply</a></li>
+                <li><a href="/projects/proj-spending-calc.php">Spending Calculator</a></li>
+                <li><a href="/projects/proj-vitality-quick-quote.php">Vitality Quick Quoute</a></li>
+                <li><a href="/projects/proj-vitality.php">Vitality</a></li>
+                <li><a href="/projects/proj-vitalityHealth.php">Vitality Health</a></li>
+
+            </ul>
         </div>
 
         <article class="article-section" id="statement">

@@ -72,22 +72,53 @@ Deliverance
 Back in 2016 a couple of significant things happened. 
 	I ordered my first iPhone, an iPhone SE
 	I participated in the User Experience Circuit short course at General Assembly
-I was at work waiting delivery of phone
-Saw it coming
-But missed it
-Ran outside
-2,3 different DPD drivers
-Eventually got in contact
+This was shortly before delivery applications started becoming commonplace. 
+I was at work waiting delivery of my new iPhone keeping a close eye on the progress of the courier on the DPD website right up until I was the next stop. Then the next thing I know I receive a notification that the delivery was not successful with a picture of the rear loading bay door. I immediately took the lift down and went running round the back into Leadenhall Market to locate the driver. I found a parked DPD van and ran towards it and accosted the driver only to discover he wasn't the one with my phone. Helpfully he tried to phone the other driver before explaining that, at the end of their shift, if they had any spare time they might try and redeliver it before heading back to the depot. I was frustrated because despite the fact that I had missed him my mere minutes and even tried to find them, I was unable to. And the frustrating thing was that they couldn't have been very far away.
+If only I had had a means of communicating with them.
+
 Guy came back later and delivered it.
-I thought to myself that there must be a better way
+
 So this became the basis for my project for General Assembly, an app designed to improve the delivery experience.
 
 PROBLEM
-This was shortly before delivery applications started becoming commonplace. 
+
 Even though I could track the progress of the courier, I still missed my delivery. This could have been avoided if there was a way of communicating with the courier.
 Business need
 Clearly there are efficiencies to be made, if a parcel has to go back to the depot, delivery re-tried the next day and even potentially returned to the source then this is incurring a cost. Cost in fuel, handling and admin.
- 
+
+Empathise and understand
+Competitive analysis
+I analysed direct and indirect competitors to see what value their apps offered their customers and, by and large, was disappointed. Many of them offered what was then standard options of alternate dates etc. but still provided no real means of communication.
+
+Research with friends and colleagues
+I conducted in-person interviews with the following goals:
+Find out how people were having items delivered
+Where they were having items delivered
+Frustrations around delivering and sending
+Is there scope for improvement?
+
+Define (synthesis)
+From the research user needs were formulated.
+Robin needs to be able to remote sign for deliveries to his home whilst he is at work.
+Aimilia needs a convenient way to be able to quickly refund an item that has not been delivered.
+Ewan needs a way to be able to change the delivery method in case the item is oversized and won't fit his letterbox.
+Andy needs a way to be able to contact the courier if the delivery has just been missed.
+
+Ideation
+Various methods were employed to ideate on potential solutions including How Might We statements and crazy 8s.
+These ideas were then collated and prioritised on an effort/impact matrix. Several features were chosen for design:
+Message courier
+Digital receipt
+Notifications
+Remote signing
+Check items condition
+
+The features were then card sorted to give the information architecture and a sitemap was created for the theoretical application.
+
+Prototype and test
+Lo-fi prototypes were made on cards for the various screens and mapped to user flows which in turn served their user needs. 
+
+
 
 //////////////////////////////////////////////////////////////////////////////
 
