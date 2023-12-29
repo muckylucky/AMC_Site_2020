@@ -13,11 +13,11 @@
     <?php  include_once("includes/analyticstracking_TagManager.php");?>
     </head>
 <body>
-	
+    
 
 
 <div class="header mobile">
-	<div class="header-logo">
+    <div class="header-logo">
             <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Senior Product/UX Designer" width="200px">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
             <h2>Senior Product Designer</h2>
@@ -26,8 +26,8 @@
 </div>
     
 <div class="wrapper">
-	<div class="header">
-    	<div class="header-logo">
+    <div class="header">
+        <div class="header-logo">
             <img src="../img/amc_logo_large.png" alt="Andrew McCluckie: Senior Product/UX Designer" width="200px">
             <h1 class="name-target">Andrew M<sup>c</sup>Cluckie</h1>
             <h2>Senior Product Designer</h2>
@@ -69,13 +69,13 @@
                 <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
                 <li><small>Logo collection</small></li>
             </ul>
-            <ul>
-                <li><a href="/projects/proj-deliverance.php">Deliverance</a></li>
-                <li><a href="/projects/proj-quote-apply.php">Quote and Apply</a></li>
-                <li><a href="/projects/proj-spending-calc.php">Spending Calculator</a></li>
-                <li><a href="/projects/proj-vitality-quick-quote.php">Vitality Quick Quoute</a></li>
-                <li><a href="/projects/proj-vitality.php">Vitality</a></li>
-                <li><a href="/projects/proj-vitalityHealth.php">Vitality Health</a></li>
+            <ul class="project_list">
+                <li><a href="/online-cv/projects/proj-deliverance.php">Deliverance</a></li>
+                <li><a href="/online-cv/projects/proj-quote-apply.php">Quote and Apply</a></li>
+                <li><a href="/online-cv/projects/proj-spending-calc.php">Spending Calculator</a></li>
+                <li><a href="/online-cv/projects/proj-vitality-quick-quote.php">Vitality Quick Quoute</a></li>
+                <li><a href="/online-cv/projects/proj-vitality.php">Vitality</a></li>
+                <li><a href="/online-cv/projects/proj-vitalityHealth.php">Vitality Health</a></li>
 
             </ul>
         </div>
@@ -88,9 +88,9 @@
             <p>I've been involved in digital design since back when iMacs were white plastic! I've worked as a front-end and campaign developer at Selligent using the very tools I ended up designing to do work for some of their biggest clients (Tesco, Future publishing, Odeon Cinemas, and Games Workshop to name a few) so every poor piece of UX in that software I had to endure on a daily basis. This gave me valuable insights into how our clients used our products and equipped me well in my transition to Product Design.</p>
 
             <h3>Strengths</h3>
-            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. At the end of my time there we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. Usability weeks gave us crucial insights into our design process as well as continuous discovery and being an important piece of the client relationship process. I once even conducted testing with <strong>paper prototypes</strong> remotely during the pandemic lockdown period. Read about that <a href="user-testing.php">here</a>.</p>
+            <p><strong>User testing evangalist</strong>. At <a href="https://www.selligent.com/">Selligent</a> not one project went into development without being user tested. At the end of my time there we were conducting <em>usability weeks</em> on a monthly basis with our clients after transitioning away from <a href="https://www.usertesting.com/">UserTesting</a>. Usability weeks gave us crucial insights into our design process as well as continuous discovery and being an important piece of the client relationship process. I once even conducted testing with <strong>paper prototypes</strong> remotely during the pandemic lockdown period. Read about that <a href="/online-cv/user-testing.php">here</a>.</p>
 
-			<p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive into my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
+            <p><strong>Outcomes over output</strong>. I design user journeys, not screens. I like to deep-dive into my projects and get a thorough understanding of the big picture to identify wider problems, not quick fixes. I'm also big on analytics and how they can inform our designs.</p>
 
             <p><strong>Inclusivity</strong>. Facilitating workshops is my superpower (not my words!) and I truly believe that design is inclusive. Good results are not conjured up by lone designers but are the culmination of teamwork.</p>
 
@@ -102,7 +102,7 @@
         <!--END STATEMENT-->
         
         <article class="article-section-full-width clearfix" > 
-			<!--<section class="skillset-column latest-projects">
+            <!--<section class="skillset-column latest-projects">
                 <ul>
                     <h3>Recent projects</h3>
                     <li>
@@ -124,28 +124,28 @@
                         <a href="https://www.pruprotect.co.uk/iht-calculator/">Inheritence tax calculator</a>
                     </li>
                 </ul>
-			</section>
+            </section>
                      -->   
             <section class="skillset-column fullWidth">
                 <ul id="webskills" class="">
-                   	<h3>UI / UX</h3>
+                    <h3>UI / UX</h3>
                      <li>Figma</li>
                      <li>Miro</li>
                      <li>Axure</li>
-                   	 <li>Sketch</li>
+                     <li>Sketch</li>
                      <li>Balsamiq Mockups</li>
-                   	 <li>Research</li>
-                   	 <li>Extensive experience with moderated user testing using digital and paper prototypes</li>
-                   	 <li>Google Analytics</li>
-                   	 <li>Amplitude</li>
+                     <li>Research</li>
+                     <li>Extensive experience with moderated user testing using digital and paper prototypes</li>
+                     <li>Google Analytics</li>
+                     <li>Amplitude</li>
                      <li>FullStory</li>
                      <li>Gainsight PX</li>
-                   	 <li>UserTesting.com</li>
+                     <li>UserTesting.com</li>
                 </ul>
-			</section>
+            </section>
             <section class="skillset-column">
                 <ul id="webskills">
-                   	<h3>Web skillset</h3>
+                    <h3>Web skillset</h3>
                     <li>HTML 5</li>
                     <li>CSS 3</li>
                     <li>Javascript</li>
@@ -154,12 +154,12 @@
                     <li>XML</li>
                     <li>AJAX</li>
                 </ul>
-			</section>
+            </section>
                         
 
             <section class="skillset-column">
                 <ul id="webskills">
-                   	<h3>General design</h3>
+                    <h3>General design</h3>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
                     <li>Dreamweaver</li>
@@ -170,18 +170,18 @@
                     <li><img src="/online-cv/img/axure_icon_125.svg" width="46" height="46" alt="Axure"></li>
                     <li><img src="/online-cv/img/Sketch_logo_frame.svg" width="46" height="46" alt="Sketch"></li>
                     <li><img src="/online-cv/img/adobe-icon-dreamweaver.png" width="46" height="46" alt="Adobe Dreamweaver"></li>
-                	<li><img src="/online-cv/img/adobe-icon-photoshop.png" width="46" height="46" alt="Adobe Photoshop"></li>
-                	<li><img src="/online-cv/img/adobe-icon-illustrator.png" width="46" height="46" alt="Adobe Illustrator"></li>
-                	<li><img src="/online-cv/img/adobe-icon-indesign.png" width="46" height="46" alt="Adobe InDesign"></li>
+                    <li><img src="/online-cv/img/adobe-icon-photoshop.png" width="46" height="46" alt="Adobe Photoshop"></li>
+                    <li><img src="/online-cv/img/adobe-icon-illustrator.png" width="46" height="46" alt="Adobe Illustrator"></li>
+                    <li><img src="/online-cv/img/adobe-icon-indesign.png" width="46" height="46" alt="Adobe InDesign"></li>
                 </ul>
-			</section>
+            </section>
             
         </article>
         <!--END SKILLSET-->
         
         <article class="article-section" id="work-history">
             
-        	<h2>Work history</h2>
+            <h2>Work history</h2>
             <section class="job-entry">
                 <time>January 2022-Present</time>
                 <section class="job-project">
@@ -238,8 +238,8 @@
                         <p>Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
 
                         <div class="project-thumbnail">
-                    		<a href="#">
-                            	<img src="/online-cv/img/projects/cv-project-pruprotect.gif" width="1334" height="1718" alt="Project preview">
+                            <a href="#">
+                                <img src="/online-cv/img/projects/cv-project-pruprotect.gif" width="1334" height="1718" alt="Project preview">
                             </a>
                         </div>
                     </section>
@@ -256,54 +256,54 @@
                     </section>
                                         
                     <section class="job-project">
-    					<h3><a href="/online-cv/projects/proj-vitality-quick-quote.php">Quick quote</a></h3>
+                        <h3><a href="/online-cv/projects/proj-vitality-quick-quote.php">Quick quote</a></h3>
                         <p>Delivered the Design and build of this quote system in an extremely short time &ndash; frame. Worked on UX/UI through final designs and complete front-end build. The quote is fully responsive and built upon the latest version of Bootstrap.</p>
                         <p>Current rate of quote completions throught the funnel is <strong>45%</strong>.</p>
                         <a href="/online-cv/projects/proj-vitality-quick-quote.php" class="primary-button">Read more</a>
                         <a href="https://www.vitality.co.uk/health-insurance/quote" class="secondary-button">Visit the site</a> 
 
                         <div class="project-thumbnail">
-                    		<a href="https://www.vitality.co.uk/health-insurance/quote">
-                            	<img src="/online-cv/img/projects/cv-project-q-quote.gif" width="640" height="965" alt="Project preview">
+                            <a href="https://www.vitality.co.uk/health-insurance/quote">
+                                <img src="/online-cv/img/projects/cv-project-q-quote.gif" width="640" height="965" alt="Project preview">
                             </a>
                         </div>
                     </section>                
                                     
                     <section class="job-project">
-    					<h3><a href="/online-cv/projects/proj-spending-calc.php">Spending calculator</a></h3>
+                        <h3><a href="/online-cv/projects/proj-spending-calc.php">Spending calculator</a></h3>
                         <p>This is a personal project I started with the aim of tracking my monthly spending since the last pay day.</p>
                         <a href="/online-cv/projects/proj-spending-calc.php" class="primary-button">Read more</a>
 
                         <div class="project-thumbnail">
-                    		<a href="/online-cv/projects/proj-spending-calc.php">
-                            	<img src="/online-cv/img/projects/cv-project-spending-calc.gif" width="400" height="597" alt="Project preview">
+                            <a href="/online-cv/projects/proj-spending-calc.php">
+                                <img src="/online-cv/img/projects/cv-project-spending-calc.gif" width="400" height="597" alt="Project preview">
                             </a>
                         </div>
                     </section>                
                     
                     <section class="job-project">
-    					<h3><a href="http://vitality.co.uk/">Vitality.co.uk</a></h3>
+                        <h3><a href="http://vitality.co.uk/">Vitality.co.uk</a></h3>
                         <p>Launched in January this year, this is the new online presence for the Vitality brand. The first of our sites being developed as responsive. Implemented A / B testing strategies utilising <a href="http://qubitproducts.com/">Qubit</a>. I am lead designer for this site and responsible for design, UX/UI and front-end code.</p>
                         <a href="/online-cv/projects/proj-vitality.php" class="primary-button">Read more</a>
                         <a href="http://vitality.co.uk/" class="secondary-button">Visit Vitality.co.uk</a> 
                         <div class="project-thumbnail">
-                    		<a href="http://vitality.co.uk/">
-                            	<img src="/online-cv/img/projects/cv-project-vitality.png" width="1219" height="1287" alt="Project preview">
+                            <a href="http://vitality.co.uk/">
+                                <img src="/online-cv/img/projects/cv-project-vitality.png" width="1219" height="1287" alt="Project preview">
                             </a>
                         </div>
-    				</section>                
+                    </section>                
                                    
                     <section class="job-project">
-    					<h3><a href="http://www.pruhealth.co.uk/">PruHealth.co.uk</a></h3>
+                        <h3><a href="http://www.pruhealth.co.uk/">PruHealth.co.uk</a></h3>
                         <p>I am responsible for the design of the main landing page for both customers and advisers. <em>PruProtect and PruHealth were both merged into Vitality in 2015</em>.</p>
                         <a href="../projects/proj-vitalityHealth.php" class="primary-button">Read more</a>
                         <a href="http://www.pruhealth.co.uk/" class="secondary-button">Visit PruHealth.co.uk</a> 
                         <div class="project-thumbnail">
-                    		<a href="#">
-                            	<img src="/online-cv/img/projects/cv-project-PruHealth.png" width="600" height="831" alt="Project preview">
+                            <a href="#">
+                                <img src="/online-cv/img/projects/cv-project-PruHealth.png" width="600" height="831" alt="Project preview">
                             </a>
                         </div>
-    				</section>                
+                    </section>                
                        
                     <section class="job-project">
                         <h3><a href="https://adviser.vitality.co.uk/resources/literature/health-insurance-sales-literature/">Literature and tools</a></h3>
@@ -317,24 +317,24 @@
                     </section>
 
                     <section class="job-project">
-    					<h3><a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">Direct to consumer quote</a></h3>
+                        <h3><a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">Direct to consumer quote</a></h3>
                         <p>Another first for PruProtect – this marks the beginning of the push into the D2C market. I was involved in all aspects, from wireframing, UI/UX to the final build. </p>
                         <a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/" class="primary-button">Visit D2C quote</a>
                         <div class="project-thumbnail">
-                    		<a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">
-                            	<img src="/online-cv/img/projects/cv-project-D2C-quote.png" width="1223" height="1277" alt="Project preview">
+                            <a href="https://www.pruprotect.co.uk/PruProtectOnline/quote/">
+                                <img src="/online-cv/img/projects/cv-project-D2C-quote.png" width="1223" height="1277" alt="Project preview">
                             </a>
                         </div>
-    				</section>
+                    </section>
                      
                     <section class="job-project">
                         <h3>Quote and Apply</h3> 
                         <p>Full product lifecycle from user journey mapping, through wireframing and UX testing to final design and front-end build. Resulted in a system that is 20% quicker to produce a quote and also improved straight-through application rates of +50%.
         Designed and built entire PruProtect website. Constant evolution of look and feel. Monitoring of analytics in order to make informed evolutions of the design. Wrote all javascript/jQuery for front-end functionality.</p>
-        				<a href="/online-cv/projects/proj-quote-apply.php" class="primary-button">Read more</a>
+                        <a href="/online-cv/projects/proj-quote-apply.php" class="primary-button">Read more</a>
                         <div class="project-thumbnail">
-                    		<a href="#">
-                            	<img src="/online-cv/img/projects/cv-project-quote-apply.gif" width="960" height="937" alt="Project preview">
+                            <a href="#">
+                                <img src="/online-cv/img/projects/cv-project-quote-apply.gif" width="960" height="937" alt="Project preview">
                             </a>
                         </div>
                     </section>
@@ -343,30 +343,30 @@
                         <h3><a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">MyPlan app</a></h3> 
                         <p>Led the MyPlan App project; creating user-journeys, wireframes, mobile UI designs and specifications as well as managing external development agency. The app enables advisers to drive business by helping them outline PruProtects&rsquo; core propositions with clients.</p>
                         <div class="project-thumbnail">
-                    		<a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">
-                            	<img src="/online-cv/img/projects/cv-project-myPlan.jpg" width="480" height="360" alt="Project preview">
+                            <a href="https://itunes.apple.com/gb/app/vitalitylife-myplan/id657868651?mt=8">
+                                <img src="/online-cv/img/projects/cv-project-myPlan.jpg" width="480" height="360" alt="Project preview">
                             </a>
                         </div>
                     </section>
 -->
 
-			</section>
+            </section>
             <!--END VITALITY-->
             <section class="job-entry">
-        		<time>March 2008-March 2009</time>
-   	      <h1>Graphic designer &mdash; &nbsp;<span class="highlight travelbag">Travelbag</span></h1>
+                <time>March 2008-March 2009</time>
+          <h1>Graphic designer &mdash; &nbsp;<span class="highlight travelbag">Travelbag</span></h1>
                 <p>Carried-out duties in the design studio for both digital and print.</p>
-                <ul>
-                	<li>Responsible for front-end build of new website to hand-off to developers</li>
-					<li>Creation of weekly promotional emails and landing pages</li>
-					<li>Design and build of promotional microsites</li>
-					<li>Design of flash banners</li>
-					<li>Design of various direct marketing print pieces</li>
-					<li>Layouts for monthly Travelbag magazine </li>
-					<li>Layout and illustration for annual print brochures </li>
+                <ul class="project-list">
+                    <li>Responsible for front-end build of new website to hand-off to developers</li>
+                    <li>Creation of weekly promotional emails and landing pages</li>
+                    <li>Design and build of promotional microsites</li>
+                    <li>Design of flash banners</li>
+                    <li>Design of various direct marketing print pieces</li>
+                    <li>Layouts for monthly Travelbag magazine </li>
+                    <li>Layout and illustration for annual print brochures </li>
                 </ul>
                     <a href="http://www.travelbag.co.uk/" class="primary-button">Visit Travelbag</a>
-			</section>
+            </section>
 
         </article>
         <!--END WORK HISTORY-->
@@ -375,7 +375,7 @@
     
  
     <div class="footer">
-    	<p id="copyright_notice"><sup>&copy;</sup> <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
+        <p id="copyright_notice"><sup>&copy;</sup> <span id="copy_year"><script language="JavaScript" type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></span> Andrew M<sup>c</sup>Cluckie</p>
     </div>
 </div>
 <script>

@@ -63,13 +63,15 @@
 
         <div class="logos_employment">
             <ul class="list_unstyled">
+                <li><small>Logo collection</small></li>
                 <li><img src="/img/employment_logos/Infobip_Logo.svg" alt="Logo: Infobip" width="200px"></li>
                 <li><img src="/img/employment_logos/logo-smc_0.png" alt="Logo: Selligent Marketing Cloud" width="200px"></li>
                 <li><img src="/img/employment_logos/vitality-logo.svg" alt="Logo: Vitality" width="160px"></li>
                 <li><img src="/img/employment_logos/travelbag-logo-taupe.svg" alt="Logo: Travelbag" width="200px"></li>
-                <li><small>Logo collection</small></li>
+                
             </ul>
-            <ul>
+            <ul class="project-list">
+                <li><h4>Project list</h4></li>
                 <li><a href="/online-cv/projects/proj-deliverance.php">Deliverance</a></li>
                 <li><a href="/online-cv/projects/proj-quote-apply.php">Quote and Apply</a></li>
                 <li><a href="/online-cv/projects/proj-spending-calc.php">Spending Calculator</a></li>
